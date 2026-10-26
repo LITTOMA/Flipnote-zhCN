@@ -23,6 +23,7 @@ jobs:
         with:
           path: source 中文
           submodules: recursive
+          persist-credentials: false
       - uses: actions/setup-dotnet@v5
         with:
           dotnet-version: '10.0.x'
