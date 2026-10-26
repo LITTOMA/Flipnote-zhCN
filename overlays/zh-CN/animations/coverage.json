@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "inputSha256": "337925D04CF9196E0D5F01A08E70133CA06C750AD4D15E796865C5E11977186C",
+  "reviewMethod": "All 506 complete decoded frames visually rechecked at native resolution. All 48 reviewed text blocks scanned across every raw indexed frame independently of declared edit ranges; 351 occurrences covered. The final 1518 indexed layers independently matched flipnote.js 6.3.0. No image generation used.",
+  "animations": [
+    {
+      "id": "01",
+      "name": "配色示例",
+      "path": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwcccccccwnltthcafaaan.kwz",
+      "sha256": "F1FD1460F09A4FFE72DC68342B5EEA0DAEF376E042913828D9D1091379ECC1B9",
+      "frames": 38,
+      "reviewedFrameRange": [
+        0,
+        37
+      ],
+      "containsJapanese": true
+    },
+    {
+      "id": "02",
+      "name": "昆虫",
+      "path": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwcccccccmnltthcyfaaan.kwz",
+      "sha256": "D0878A31E452B45F48A7BB10083C34B10CED191A6E9A433D46622C9F85CAF93A",
+      "frames": 2,
+      "reviewedFrameRange": [
+        0,
+        1
+      ],
+      "containsJapanese": true
+    },
+    {
+      "id": "03",
+      "name": "游泳",
+      "path": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwcccccccfnltthc2faaan.kwz",
+      "sha256": "FF7E81F48C95B080895EFEEA80CB41024A9C92B4E179AA577A955C2FCCF84DDD",
+      "frames": 6,
+      "reviewedFrameRange": [
+        0,
+        5
+      ],
+      "containsJapanese": true
+    },
+    {
+      "id": "04",
+      "name": "图层教程",
+      "path": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwcccccccjnltthwjfaaan.kwz",
+      "sha256": "C2B40F550E9361A07FC3F59459978FDAB0259AAC7E245FAB31BF923F4DFE847C",
+      "frames": 119,
+      "reviewedFrameRange": [
+        0,
+        118
+      ],
+      "containsJapanese": true
+    },
+    {
+      "id": "05",
+      "name": "L键切换教程",
+      "path": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwccccccconltthwafaaan.kwz",
+      "sha256": "EED00B676071E5CBE6E2C46002EEB74F265D6059488F18D58C758B369E7A9235",
+      "frames": 45,
+      "reviewedFrameRange": [
+        0,
+        44
+      ],
+      "containsJapanese": true
+    },
+    {
+      "id": "06",
+      "name": "3D动画教程",
+      "path": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwcccccccdnltthw2faaan.kwz",
+      "sha256": "AFEEB4BE17E353207FB9EB15E85064B8DC6BE05F7E5A0310CEB8C47E508BED68",
+      "frames": 175,
+      "reviewedFrameRange": [
+        0,
+        174
+      ],
+      "containsJapanese": true
+    },
+    {
+      "id": "07",
+      "name": "演唱者",
+      "path": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwcccccccvnltthmjfaaan.kwz",
+      "sha256": "DE7FBFABF94F4F1895576FEFD93EE5CDAD67E0DEE60212389E5651D6033D2BD8",
+      "frames": 7,
+      "reviewedFrameRange": [
+        0,
+        6
+      ],
+      "containsJapanese": false
+    },
+    {
+      "id": "08",
+      "name": "跑步",
+      "path": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwcccccccenltthmafaaan.kwz",
+      "sha256": "2B13DE5261DEA4A649768F45EF6E83A9178DE6756FD39ED073B9D573BCF26A6C",
+      "frames": 6,
+      "reviewedFrameRange": [
+        0,
+        5
+      ],
+      "containsJapanese": true
+    },
+    {
+      "id": "09",
+      "name": "拳击",
+      "path": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwcccccccgnltthmyfaaan.kwz",
+      "sha256": "CA197E9453B5EECD03F7468399E4F6148AB3C7569A09F66FF1BED9CDFEFD2C57",
+      "frames": 33,
+      "reviewedFrameRange": [
+        0,
+        32
+      ],
+      "containsJapanese": true
+    },
+    {
+      "id": "10",
+      "name": "舞蹈",
+      "path": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwcccccccbnltthm2faaan.kwz",
+      "sha256": "08C712E70B6EB8EBF489511AFB5CFE8BA8FE9BC8484B0607097D8D7F96F349AD",
+      "frames": 30,
+      "reviewedFrameRange": [
+        0,
+        29
+      ],
+      "containsJapanese": false
+    },
+    {
+      "id": "11",
+      "name": "弹跳圆形",
+      "path": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwcccccccanltthfjfaaan.kwz",
+      "sha256": "0F926550AC9F27C5615582F96F457FAF8DD41E1C98BE64DE6E5B6364D5060991",
+      "frames": 35,
+      "reviewedFrameRange": [
+        0,
+        34
+      ],
+      "containsJapanese": false
+    },
+    {
+      "id": "12",
+      "name": "飞机",
+      "path": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwccccccclnltthfafaaan.kwz",
+      "sha256": "01452677AC85F263F15FCE001F8B30BDB5F30E389EEC19654C9E607651B2C6A1",
+      "frames": 10,
+      "reviewedFrameRange": [
+        0,
+        9
+      ],
+      "containsJapanese": true
+    }
+  ],
+  "reviewDate": "2026-10-26",
+  "coveragePolicy": "Template matching verifies occurrences of reviewed text, not recognition of arbitrary new text. Manual full-frame review remains required."
+}

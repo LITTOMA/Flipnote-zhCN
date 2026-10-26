@@ -1,0 +1,16 @@
+{
+  "mode": "built-in image_gen",
+  "assets": [
+    {
+      "source": "title-lettering-source.png",
+      "prompt": "Use case: text-localization. Asset type: Simplified Chinese game UI wordmark. Input image is a STYLE REFERENCE ONLY (the original Japanese game title). Generate ONLY the exact five Simplified Chinese characters 动画记事本 on ONE horizontal line, no 3D and no TM. Solid pure BLACK lettering on a solid pure WHITE background, fully opaque. Clean flat 2D bold geometric sans-serif Chinese lettering, with subtly playful angular cuts and gentle rotations like the reference. Every Chinese character must be correctly formed and legible. Five separate glyphs of similar height. Leave open counters and clear gaps between strokes; main strokes about 10–12 percent of character width. Smooth clean outlines. No distressed textures, speckles, outlines, shadows, extrusion, brush calligraphy, icons, or additional text. All five glyphs fully inside the image with at least 5 percent white margins. Wide horizontal group roughly 5:1 aspect ratio. Final lettering will be reduced to about 276 by 56 pixels and must stay legible. Exact text: 动画记事本.",
+      "reference": "content/0000/romfs/TexturePack/JP/JPTexturePack.blz!/timg/TitleLogo1.bclim",
+      "selectedTitle": "动画记事本 3D"
+    },
+    {
+      "source": "gallery-lettering-source.png",
+      "prompt": "Use case: text-localization. Asset type: Chinese game menu wordmark. The supplied image is the Japanese original and is a typography/layout reference. Create a clean flat logo containing exactly TWO centered lines of Simplified Chinese: first line 世界, second line 动画画廊. The first line uses slightly larger characters, the second line spans a wider width. Match the reference's friendly, playful, very bold geometric lettering with subtle angled cuts and gentle rotations, but use accurate, clearly legible Chinese glyphs with open counters and gaps between strokes. Solid BLACK lettering on a solid WHITE background, completely opaque, no other colors. ONLY these six Chinese characters; no Japanese, no Latin text, no icon. No shadows, gradients, outlines, distressed textures, speckles, calligraphy or 3D effects. Wide two-line group, roughly 3:1 overall bounds, with generous empty margins. Needs to remain clear as a 227 by 74 pixel menu texture.",
+      "reference": "content/0000/romfs/TexturePack/JP/JPTexturePack.blz!/timg/TheaterTitleLogo.bclim"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "message": "A"
+  },
+  {
+    "id": 1,
+    "message": "B"
+  },
+  {
+    "id": 2,
+    "message": "C"
+  },
+  {
+    "id": 3,
+    "message": "重置"
+  }
+]

@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "sourceRoots": {
+    "messages": "../../translations",
+    "assets": "."
+  },
+  "operations": [
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/Camera.msbt",
+      "source": "messages:LayoutMessage/Camera.json",
+      "baseSha256": "09BC30AF9C78E4164FD46C9FCFF8EA38D34BEF3570F672FCC145821230D6216B",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/CameraUpper.msbt",
+      "source": "messages:LayoutMessage/CameraUpper.json",
+      "baseSha256": "37108A0C79C533B9B6B0C980E5D284BA1609FBF48D0C7333C9EB7C1CDE8CFE67",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/CanvasLShift.msbt",
+      "source": "messages:LayoutMessage/CanvasLShift.json",
+      "baseSha256": "00D9ECF516C643B00724206A356C36DC7727A5217729557F8F28D0365B37ADD3",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/ColorSelects.msbt",
+      "source": "messages:LayoutMessage/ColorSelects.json",
+      "baseSha256": "72736BD668A89F7BEF6CC22FAD424F86165A5B1617ED6994020760608DB34478",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/Config.msbt",
+      "source": "messages:LayoutMessage/Config.json",
+      "baseSha256": "917FDDD7073E2EC3292FBDB9FD85CC0DC1F071E35735F822B7B81953C51C713A",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/ConfigUpper.msbt",
+      "source": "messages:LayoutMessage/ConfigUpper.json",
+      "baseSha256": "8161AFAAC9B2FDAFAE886572016C041149430DD7B8A45569A0F9A28C08AB0D9E",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/DepthEdit.msbt",
+      "source": "messages:LayoutMessage/DepthEdit.json",
+      "baseSha256": "52E815B7FED6169FAFB35DD2DB18E705BFDC9FAE174849D3B106AF39D94946C7",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/DrwAssistTool.msbt",
+      "source": "messages:LayoutMessage/DrwAssistTool.json",
+      "baseSha256": "BAF88413B1FC531971B2796E216D75810A817B08C43A5D3F6E7AD09D7F3A66C2",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/DrwBar.msbt",
+      "source": "messages:LayoutMessage/DrwBar.json",
+      "baseSha256": "7F6593CF3EB68E69A78ADDD0122A5C0F1CC9DDF88E903522010987C04851D00D",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/DrwCanvasBar.msbt",
+      "source": "messages:LayoutMessage/DrwCanvasBar.json",
+      "baseSha256": "FE9FE7CE6E021517FA6931D13D364EEBDF41766E182B509CF1AE0355177E1C10",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/Exchange.msbt",
+      "source": "messages:LayoutMessage/Exchange.json",
+      "baseSha256": "1A2B6F88A3BB135AF1924A209C970FE3B1C387239D6CF1515637805CAD946F46",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/FolderDetail.msbt",
+      "source": "messages:LayoutMessage/FolderDetail.json",
+      "baseSha256": "EA0AC0233756C41F5114C202C5B1349B49442F8AB4C5AFA809615ACC1626A675",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/FrameEdit.msbt",
+      "source": "messages:LayoutMessage/FrameEdit.json",
+      "baseSha256": "02674BEFD5F90278F8BC46C9D39953EB075243BB405BC16FA7A08BB06B6BBA48",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/IconEdit.msbt",
+      "source": "messages:LayoutMessage/IconEdit.json",
+      "baseSha256": "F4B7A0375E26683ABA8C07C12A8B6FE45964F0FA51C83F42DE4A2C180EBB4863",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/IconEditPop.msbt",
+      "source": "messages:LayoutMessage/IconEditPop.json",
+      "baseSha256": "62F82040ED4B14A7707888040360265B7A943DAEE21DB626F330A52461A9DC9E",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/MemoDetail.msbt",
+      "source": "messages:LayoutMessage/MemoDetail.json",
+      "baseSha256": "833E7DB773D21093283B9A70604847BE223956F546E6ECACC5B35AE6A7EA8CBF",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/MemoryBar.msbt",
+      "source": "messages:LayoutMessage/MemoryBar.json",
+      "baseSha256": "929F240AFB8A62F0AC66E3BE6389FE25833ED702FBA5691F9B0667BA0C540C01",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/SaveBar.msbt",
+      "source": "messages:LayoutMessage/SaveBar.json",
+      "baseSha256": "B42E29233F52A91A514F14DF3D3F18AF55D44BFB0F5980C2AA353A65C77DE47D",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/Select.msbt",
+      "source": "messages:LayoutMessage/Select.json",
+      "baseSha256": "6A2865A7027CE11056C7DA8CA869B0A6773FC8A21A74D6C33FD1B3D52D571FF0",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/SoundBar.msbt",
+      "source": "messages:LayoutMessage/SoundBar.json",
+      "baseSha256": "F58730B685607FF6B75B11123712432DF4523779F69F1B71213B8F54614BF751",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/SoundMix.msbt",
+      "source": "messages:LayoutMessage/SoundMix.json",
+      "baseSha256": "09101DB84E0A89A705D209B90D13C0A58270C4CA887B0B1F3E17593D608F3B55",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/SoundRec.msbt",
+      "source": "messages:LayoutMessage/SoundRec.json",
+      "baseSha256": "47F53A45BD31A1FB1C537B570099641F1A1F56C153B8377E76050888C3BDCB53",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/SoundSequencer.msbt",
+      "source": "messages:LayoutMessage/SoundSequencer.json",
+      "baseSha256": "82A8D2EE5743712E1F3B7D2274CEB290CE50EBEB6682912EFFC1B1D9E6F5FEC5",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/TheaterLoginUpper.msbt",
+      "source": "messages:LayoutMessage/TheaterLoginUpper.json",
+      "baseSha256": "D968BE3A249EDB300D2C150DB3409124171DEFBC643CE6C3B0410FAE6D7617E1",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/TheaterResBar.msbt",
+      "source": "messages:LayoutMessage/TheaterResBar.json",
+      "baseSha256": "228D05302F829958D287D724BE15AA1CD716A3682FBB3FA0DE45CFFC3B752585",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/ThumbnailFrameEdit.msbt",
+      "source": "messages:LayoutMessage/ThumbnailFrameEdit.json",
+      "baseSha256": "279523A07E9EFD177BC36208756B0CDADCEF337A03EC3558D8260874D7E5E738",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/TinyDrawBar.msbt",
+      "source": "messages:LayoutMessage/TinyDrawBar.json",
+      "baseSha256": "B7BDB31A6C4C048B18F4C87F3C7477C9B8E2702E63D6DCAC5822050F3DE81508",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/TinyDrawMenu.msbt",
+      "source": "messages:LayoutMessage/TinyDrawMenu.json",
+      "baseSha256": "32213AEA0C90575D3AC382ABC13E3CDAB8EF2A69544E22D799276B30FD87A3AF",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/Title.msbt",
+      "source": "messages:LayoutMessage/Title.json",
+      "baseSha256": "88994659088951845AB280E51800B7CA72F5A06B25D4C66DAA90F5AB345947DD",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/TitleUpper.msbt",
+      "source": "messages:LayoutMessage/TitleUpper.json",
+      "baseSha256": "C4811766A9B5FF81F84E4CD94345931E537EFB5A6963CDFA3D36B6DCC002A782",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/TitleUsEu.msbt",
+      "source": "messages:LayoutMessage/TitleUsEu.json",
+      "baseSha256": "92A69D864B5AAE23593794F3BA714FBC1DCCADF17A073854B58AA3F849A3C0E4",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/Trans.msbt",
+      "source": "messages:LayoutMessage/Trans.json",
+      "baseSha256": "5215BE4D747D8443BDD1248EC92CF68D0583CD8BA0A78F1173BFCA3999DB85C1",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/TutorialWatchSpot.msbt",
+      "source": "messages:LayoutMessage/TutorialWatchSpot.json",
+      "baseSha256": "A1844E586C4E376C5D6DEA4C45F65E7533D89EC526FCA192A278FCC2F0687A7F",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/VideoConsole.msbt",
+      "source": "messages:LayoutMessage/VideoConsole.json",
+      "baseSha256": "A6B412FAB13AAA33C0455B4D374364B4147305F7A33F9621E20DB11FD0D25E7C",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/WatchBar.msbt",
+      "source": "messages:LayoutMessage/WatchBar.json",
+      "baseSha256": "3E6379383641EA5DEE05F3D5018CAD77FD5ED69E719986E25D3A17160BA26AF6",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/WatchCanvasBar.msbt",
+      "source": "messages:LayoutMessage/WatchCanvasBar.json",
+      "baseSha256": "15D4EAA33332E95B49672A9FCB7BDC088CFB7B2372E6ECBBDAA352C96DEB371F",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/WatchUpper.msbt",
+      "source": "messages:LayoutMessage/WatchUpper.json",
+      "baseSha256": "828CF1A114088E63A072B84A77CB4A9152236023CAA4DBA90D47528B601DA35E",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/WindowBirthday.msbt",
+      "source": "messages:LayoutMessage/WindowBirthday.json",
+      "baseSha256": "282F78E43BF09BE0FA5DE06FD5F7CE6E3C0962348FA15D4BCB42E4933879BCBC",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/WindowLock.msbt",
+      "source": "messages:LayoutMessage/WindowLock.json",
+      "baseSha256": "975349A1BB707750B2D4B9CE1A273FF087E65742D19547C39CC1A6391387DA35",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/WindowTheaterPay.msbt",
+      "source": "messages:LayoutMessage/WindowTheaterPay.json",
+      "baseSha256": "DEEAD12D03C94B24D18DD7606DFA24C8B30413C4FB232E7D18C2B55798545185",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/LayoutMessage.blz!/WindowTitleInfo.msbt",
+      "source": "messages:LayoutMessage/WindowTitleInfo.json",
+      "baseSha256": "4766302FEEE429D1BA0B423E1A6D0C94C034D2DD4937733D5B449432C77875A3",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/Application.msbt",
+      "source": "messages:SystemMessage/Application.json",
+      "baseSha256": "CCD93E9C0424D56FE5CB7A4D922C63A65DFBE7DE9374410F5A1E5455FECFA77A",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/BrushPaint.msbt",
+      "source": "messages:SystemMessage/BrushPaint.json",
+      "baseSha256": "A0B8C3B062EA06543CC151DBE273E61B4697500B3D5D7CBA45E76B0EEE920CD4",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/ConfigMenu.msbt",
+      "source": "messages:SystemMessage/ConfigMenu.json",
+      "baseSha256": "CD17DFD5FFE396FBBC36A9FF4F3BD4D890E87CA80D83BD3D5F69735B74EC18B5",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/ErrorApplet.msbt",
+      "source": "messages:SystemMessage/ErrorApplet.json",
+      "baseSha256": "FB298BEAA12D21A581A25E249646280238DEF9082DCBBBA62CD83948F14C8B0C",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/KeyboardApplet.msbt",
+      "source": "messages:SystemMessage/KeyboardApplet.json",
+      "baseSha256": "D20AA07EFFAD6A0ED827CEC52B6EE02A57EB3D5468A80301C96D15DEB4BA04BD",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/MemoDetailButton.msbt",
+      "source": "messages:SystemMessage/MemoDetailButton.json",
+      "baseSha256": "B7208F3EC24610B18D4F12BF822B4DA0720998A45C1FD9BBB1B9E40D6E48C45D",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/ProgramFormat.msbt",
+      "source": "messages:SystemMessage/ProgramFormat.json",
+      "baseSha256": "A4BD00DEDB391AA18CE11D2C658035727EFF8C7A51A94B013C8BCF2E6FF27BB2",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/SampleMemo.msbt",
+      "source": "messages:SystemMessage/SampleMemo.json",
+      "baseSha256": "906CB6E080BD3F1383120E94861516E2806BCAFA3BEEBED80F12EA7DAA8CF098",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/SaveUpper.msbt",
+      "source": "messages:SystemMessage/SaveUpper.json",
+      "baseSha256": "BBE13E51F25F4680F27681D276DBB9870D9EEABAE817C15FE832598765FAD49D",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/WatchCanvasBar.msbt",
+      "source": "messages:SystemMessage/WatchCanvasBar.json",
+      "baseSha256": "DBB5B712D21C514402D8EF55705D855293EF036FBEE56921B0A368FA603DFBF3",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/WindowCinema.msbt",
+      "source": "messages:SystemMessage/WindowCinema.json",
+      "baseSha256": "D64A1DA20EF9EF6B0620E7D4EEDE848C5165138BD25CA4C8E36C5ECA21163CD7",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/WindowConfig.msbt",
+      "source": "messages:SystemMessage/WindowConfig.json",
+      "baseSha256": "F24D865C278E22FD6B4EBA84FF2528400361B9DD7F4DEACFC6EE7BFEEC6A480F",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/WindowConfirm.msbt",
+      "source": "messages:SystemMessage/WindowConfirm.json",
+      "baseSha256": "140BFC5F4F955A5AED0BDC4231883610E2D14A4ACCD82910AA536CC948FCA441",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/WindowDraw.msbt",
+      "source": "messages:SystemMessage/WindowDraw.json",
+      "baseSha256": "80DB539904482C4B8EE79372E5F1390FABC4D30DF768C92678F72A3BC6FE491C",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/WindowEditFolder.msbt",
+      "source": "messages:SystemMessage/WindowEditFolder.json",
+      "baseSha256": "855CFF292AE0FD17A8BE8E3C92BC2632F3D02A2F10117FF5BE14D4FEE7B3DC69",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/WindowExchange.msbt",
+      "source": "messages:SystemMessage/WindowExchange.json",
+      "baseSha256": "A5A66005908140DF0574DD5BB574F933A84B1262C63CE1E58D0214D6EADD3294",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/WindowMessage.msbt",
+      "source": "messages:SystemMessage/WindowMessage.json",
+      "baseSha256": "B1A7196DC9D2D986F171FDA9F91A39256DD4B793F795409086DF5E9A864CE08E",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/WindowTheater.msbt",
+      "source": "messages:SystemMessage/WindowTheater.json",
+      "baseSha256": "17F5FC27F5A297ECB61F57B179E383B32710A302B38DEA9646A5A1E80593640D",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/WindowTitle.msbt",
+      "source": "messages:SystemMessage/WindowTitle.json",
+      "baseSha256": "9F88CEBEF4AA2824150D962E6B55EDF39A897A14AF60E3AE4751F50D14B796DC",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/WindowTutorial.msbt",
+      "source": "messages:SystemMessage/WindowTutorial.json",
+      "baseSha256": "6D74B8694C22C5C34E16CC341BDDE0D24FFABBF2661691FE363CEC14D656BF76",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/WindowWait.msbt",
+      "source": "messages:SystemMessage/WindowWait.json",
+      "baseSha256": "90E6BB6469BC2F8244C389ABC93BBF0E46DFB39951BAB30AD06475D6767E262E",
+      "add": false
+    },
+    {
+      "kind": "msbt",
+      "target": "content/0000/romfs/messageData/JP_Japanese/SystemMessage.blz!/WindowWatch.msbt",
+      "source": "messages:SystemMessage/WindowWatch.json",
+      "baseSha256": "44DB2DE5E53B7952644A36E0C167EC53D984CB7ADC5FEE83CFF4D7DAD039D7C2",
+      "add": false
+    },
+    {
+      "kind": "bcfnt",
+      "target": "content/0000/romfs/font_CN.bcfnt",
+      "source": "assets:fonts/font_CN_manifest.json",
+      "baseSha256": null,
+      "add": true
+    },
+    {
+      "kind": "patch",
+      "target": "content/0000/exefs/.code",
+      "source": "assets:patches/font-loader-code.json",
+      "baseSha256": "FA933DA9573525EF3DC46E2F1B8437C75149077EFFF9C5C1BA5ECEA57F4DE2DD",
+      "add": false
+    },
+    {
+      "kind": "patch",
+      "target": "content/0000/exheader",
+      "source": "assets:patches/font-loader-exheader.json",
+      "baseSha256": "C6144C5540215BCA44C8424EDA063C15EA5FE67BE5950F10BE972D0C083992EE",
+      "add": false
+    },
+    {
+      "kind": "kwz-bitmap",
+      "target": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwcccccccwnltthcafaaan.kwz",
+      "source": "assets:animations/01-bitmap.json",
+      "baseSha256": "F1FD1460F09A4FFE72DC68342B5EEA0DAEF376E042913828D9D1091379ECC1B9",
+      "add": false
+    },
+    {
+      "kind": "kwz-bitmap",
+      "target": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwcccccccmnltthcyfaaan.kwz",
+      "source": "assets:animations/02-bitmap.json",
+      "baseSha256": "D0878A31E452B45F48A7BB10083C34B10CED191A6E9A433D46622C9F85CAF93A",
+      "add": false
+    },
+    {
+      "kind": "kwz-bitmap",
+      "target": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwcccccccfnltthc2faaan.kwz",
+      "source": "assets:animations/03-bitmap.json",
+      "baseSha256": "FF7E81F48C95B080895EFEEA80CB41024A9C92B4E179AA577A955C2FCCF84DDD",
+      "add": false
+    },
+    {
+      "kind": "kwz-bitmap",
+      "target": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwcccccccjnltthwjfaaan.kwz",
+      "source": "assets:animations/04-bitmap.json",
+      "baseSha256": "C2B40F550E9361A07FC3F59459978FDAB0259AAC7E245FAB31BF923F4DFE847C",
+      "add": false
+    },
+    {
+      "kind": "kwz-bitmap",
+      "target": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwccccccconltthwafaaan.kwz",
+      "source": "assets:animations/05-bitmap.json",
+      "baseSha256": "EED00B676071E5CBE6E2C46002EEB74F265D6059488F18D58C758B369E7A9235",
+      "add": false
+    },
+    {
+      "kind": "kwz-bitmap",
+      "target": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwcccccccdnltthw2faaan.kwz",
+      "source": "assets:animations/06-bitmap.json",
+      "baseSha256": "AFEEB4BE17E353207FB9EB15E85064B8DC6BE05F7E5A0310CEB8C47E508BED68",
+      "add": false
+    },
+    {
+      "kind": "kwz-bitmap",
+      "target": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwcccccccenltthmafaaan.kwz",
+      "source": "assets:animations/08-bitmap.json",
+      "baseSha256": "2B13DE5261DEA4A649768F45EF6E83A9178DE6756FD39ED073B9D573BCF26A6C",
+      "add": false
+    },
+    {
+      "kind": "kwz-bitmap",
+      "target": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwcccccccgnltthmyfaaan.kwz",
+      "source": "assets:animations/09-bitmap.json",
+      "baseSha256": "CA197E9453B5EECD03F7468399E4F6148AB3C7569A09F66FF1BED9CDFEFD2C57",
+      "add": false
+    },
+    {
+      "kind": "kwz-bitmap",
+      "target": "content/0000/romfs/SampleMemo/JP_Japanese/JP_Japanese.blz!/JP_Japanese/cjcccccwccccccclnltthfafaaan.kwz",
+      "source": "assets:animations/12-bitmap.json",
+      "baseSha256": "01452677AC85F263F15FCE001F8B30BDB5F30E389EEC19654C9E607651B2C6A1",
+      "add": false
+    },
+    {
+      "kind": "bclim",
+      "target": "content/0000/romfs/LayoutArchive.arc!/TheaterLoginUpper.blz!/timg/TheaterTitleLogoJp.bclim",
+      "source": "assets:images/TheaterTitleLogoJp.png",
+      "baseSha256": "1F3686DE92F49932E29643C52E61A82350BD0E7FD48C3CBC81E571DE7A5128ED",
+      "add": false
+    },
+    {
+      "kind": "bclim",
+      "target": "content/0000/romfs/TexturePack/JP/JPTexturePack.blz!/timg/TheaterTitleLogo.bclim",
+      "source": "assets:images/TheaterTitleLogo.png",
+      "baseSha256": "CBCB9CE5ECCF1D7B8DC170A3512F7E3BF1011EDA4F25A9A3F9149B87B61EC265",
+      "add": false
+    },
+    {
+      "kind": "bclim",
+      "target": "content/0000/romfs/TexturePack/JP/JPTexturePack.blz!/timg/TitleLogo1.bclim",
+      "source": "assets:images/TitleLogo1.png",
+      "baseSha256": "2766BDE594164917A2A0BF284AFF6F7B17EA4A4EDD1F24403B00F1879097245B",
+      "add": false
+    },
+    {
+      "kind": "bclim",
+      "target": "content/0000/romfs/TexturePack/JP/JPTexturePack.blz!/timg/TitleLogo2.bclim",
+      "source": "assets:images/TitleLogo2.png",
+      "baseSha256": "6B79DFD69F8319F8DEED922C006C46AB0F766088527A11227FDE0792F1D8C4BF",
+      "add": false
+    },
+    {
+      "kind": "banner-textures",
+      "target": "content/0000/exefs/banner",
+      "source": "assets:images/banner.json",
+      "baseSha256": "F8D63D5CB021F9027E60E3137943D29DF7BC699FF6D2AB1FE8ABA6C4CCF4C00B",
+      "add": false
+    }
+  ]
+}

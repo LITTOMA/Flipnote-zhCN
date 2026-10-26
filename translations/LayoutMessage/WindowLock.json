@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "message": "取消"
+  },
+  {
+    "id": 1,
+    "message": "确定"
+  },
+  {
+    "id": 2,
+    "message": "不锁定"
+  },
+  {
+    "id": 3,
+    "message": ""
+  },
+  {
+    "id": 4,
+    "message": "锁定"
+  },
+  {
+    "id": 5,
+    "message": ""
+  },
+  {
+    "id": 6,
+    "message": "不锁定"
+  },
+  {
+    "id": 7,
+    "message": "锁定"
+  }
+]

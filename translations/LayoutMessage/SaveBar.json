@@ -1,0 +1,46 @@
+[
+  {
+    "id": 0,
+    "message": "保存"
+  },
+  {
+    "id": 1,
+    "message": "另存为新作品"
+  },
+  {
+    "id": 2,
+    "message": "导出 GIF 序列"
+  },
+  {
+    "id": 3,
+    "message": "导出 AVI"
+  },
+  {
+    "id": 4,
+    "message": "导出 GIF 动画"
+  },
+  {
+    "id": 5,
+    "message": "退出"
+  },
+  {
+    "id": 6,
+    "message": ""
+  },
+  {
+    "id": 7,
+    "message": "保存"
+  },
+  {
+    "id": 8,
+    "message": ""
+  },
+  {
+    "id": 9,
+    "message": "导出 JPEG"
+  },
+  {
+    "id": 10,
+    "message": "启动任天堂3DS\n图片投稿工具"
+  }
+]

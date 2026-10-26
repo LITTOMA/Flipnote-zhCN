@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "message": "删除"
+  },
+  {
+    "id": 1,
+    "message": "复制"
+  },
+  {
+    "id": 2,
+    "message": "粘贴"
+  },
+  {
+    "id": 3,
+    "message": "叠加粘贴"
+  },
+  {
+    "id": 4,
+    "message": "删除"
+  },
+  {
+    "id": 5,
+    "message": "添加"
+  },
+  {
+    "id": 6,
+    "message": "复制"
+  },
+  {
+    "id": 7,
+    "message": "粘贴"
+  },
+  {
+    "id": 8,
+    "message": "叠加粘贴"
+  },
+  {
+    "id": 9,
+    "message": "A"
+  },
+  {
+    "id": 10,
+    "message": "B"
+  },
+  {
+    "id": 11,
+    "message": "C"
+  },
+  {
+    "id": 12,
+    "message": "A"
+  },
+  {
+    "id": 13,
+    "message": "B"
+  },
+  {
+    "id": 14,
+    "message": "C"
+  },
+  {
+    "id": 15,
+    "message": "A"
+  },
+  {
+    "id": 16,
+    "message": "B"
+  },
+  {
+    "id": 17,
+    "message": "C"
+  },
+  {
+    "id": 18,
+    "message": "将颜色设置应用到所有帧"
+  },
+  {
+    "id": 19,
+    "message": "将 3D 设置应用到所有帧"
+  }
+]

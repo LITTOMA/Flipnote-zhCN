@@ -1,0 +1,17 @@
+{
+  "baseSha256": "C6144C5540215BCA44C8424EDA063C15EA5FE67BE5950F10BE972D0C083992EE",
+  "resultSha256": "B7EF31900DD82B01A3084B554F93F50612F86F3F15E5A8C81645214CA4101DBE",
+  "length": 2048,
+  "ranges": [
+    {
+      "offset": 24,
+      "before": "5030",
+      "after": "B832"
+    },
+    {
+      "offset": 60,
+      "before": "08",
+      "after": "1C"
+    }
+  ]
+}

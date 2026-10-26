@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-26",
+  "inputSha256": "337925D04CF9196E0D5F01A08E70133CA06C750AD4D15E796865C5E11977186C",
+  "sourceCodeSha256": "7D4BE57AD220964C1780AFC59ABC6014D31B743B23910F96EC57E3B416599B94",
+  "sourceFiles": 86,
+  "verified": [
+    {
+      "verified": true,
+      "runtime": "win-x64",
+      "os": "Microsoft Windows 10.0.26200",
+      "architecture": "X64",
+      "passed": 9,
+      "checks": [
+        "Native Skia PNG roundtrip",
+        "Pinned pixel font hash",
+        "File-based Chinese and Latin font loading",
+        "Pixel-font rendering without antialiasing",
+        "System font discovery for KWZ project text objects",
+        "Complete GB2312 code-page mapping",
+        "KWZ compression, JPEG thumbnail and RSA signing",
+        "Atomic replacement with Unicode and spaced paths",
+        "Failed save preserves existing data and removes temporary output"
+      ],
+      "outputSha256": "E6CCBAAA8969F9C63586DC353C3CAF192D22BA014826AC836C4C892EFC797E3D",
+      "outputBytes": 7083008,
+      "resources": 2093,
+      "selftests": 57,
+      "independentPixelChecks": [
+        "font",
+        "UI textures",
+        "banner"
+      ],
+      "reproducible": true,
+      "entryPointVerified": true,
+      "unicodeSpacedCallerDirectory": true,
+      "errorExitCodesVerified": true
+    },
+    {
+      "verified": true,
+      "runtime": "linux-x64",
+      "os": "Ubuntu 24.04.3 LTS",
+      "architecture": "X64",
+      "passed": 9,
+      "checks": [
+        "Native Skia PNG roundtrip",
+        "Pinned pixel font hash",
+        "File-based Chinese and Latin font loading",
+        "Pixel-font rendering without antialiasing",
+        "System font discovery for KWZ project text objects",
+        "Complete GB2312 code-page mapping",
+        "KWZ compression, JPEG thumbnail and RSA signing",
+        "Atomic replacement with Unicode and spaced paths",
+        "Failed save preserves existing data and removes temporary output"
+      ],
+      "outputSha256": "E6CCBAAA8969F9C63586DC353C3CAF192D22BA014826AC836C4C892EFC797E3D",
+      "outputBytes": 7083008,
+      "resources": 2093,
+      "selftests": 57,
+      "independentPixelChecks": [
+        "font",
+        "UI textures",
+        "banner"
+      ],
+      "reproducible": true,
+      "entryPointVerified": true,
+      "unicodeSpacedCallerDirectory": true,
+      "errorExitCodesVerified": true
+    }
+  ],
+  "linuxEnvironment": "Ubuntu 24.04.3 LTS under WSL2, glibc, headless",
+  "nativeAssetsChecked": {
+    "Windows": [
+      "x64",
+      "ARM64"
+    ],
+    "macOS": [
+      "x64",
+      "ARM64 (universal Mach-O)"
+    ],
+    "Linux": [
+      "x64",
+      "ARM64"
+    ]
+  },
+  "nativeAssetInspectionIsNotExecution": true,
+  "pendingNativeExecution": [
+    "Windows ARM64",
+    "macOS x64",
+    "macOS ARM64",
+    "Linux ARM64"
+  ],
+  "ciConfigured": true,
+  "ciExecuted": false,
+  "gameRuntimeTested": false,
+  "linuxAuthoring": {
+    "uiAndBannerPixelsIdentical": true,
+    "animation6MasksIdentical": true,
+    "animation6Masks": 18,
+    "animation6FramesInspected": 141,
+    "fontUnifyAndExtendPassed": true,
+    "fontResults": {
+      "font-unify": {
+        "family": "Source Han Sans CN",
+        "han": 6763,
+        "latin": 52,
+        "preserved": 349,
+        "added": 0,
+        "glyphs": 7164,
+        "policy": "overlays/zh-CN/fonts/glyph-unification.json"
+      },
+      "font-extend": {
+        "family": "Source Han Sans CN",
+        "han": 6763,
+        "latin": 52,
+        "preserved": 349,
+        "added": 0,
+        "glyphs": 7164,
+        "policy": "overlays/zh-CN/fonts/glyph-unification.json"
+      }
+    }
+  },
+  "powershell5CompatibilityChecked": true,
+  "ciRecursiveSubmodules": true,
+  "submoduleMigrationReport": "submodule-validation.json",
+  "sourceSnapshotScope": "This source hash identifies the earlier cross-platform validation snapshot. The later submodule integration was retested on Windows; see submodule-validation.json."
+}

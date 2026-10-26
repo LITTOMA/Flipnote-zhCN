@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "baseSha256": "01452677AC85F263F15FCE001F8B30BDB5F30E389EEC19654C9E607651B2C6A1",
+  "reviewNote": "Manually reviewed original indexed layers. Only explicitly identified Japanese text strokes are erased; all other animation pixels, frame metadata, header and audio are preserved. The thumbnail is regenerated separately using libkwz.UpdateThumbnail. Original left/right/center anchors and line positions retained. Raster font: 缝合像素体 / Fusion Pixel; native 12 px, 24 px by exact 2x nearest scaling; no antialiasing; SHA256 2972782F05D7DD5F8414BC0215F69C181561172286B1F9823B5C279D9E5E6674.",
+  "edits": [
+    {
+      "firstFrame": 0,
+      "lastFrame": 9,
+      "layer": 0,
+      "x": 25,
+      "y": 212,
+      "width": 270,
+      "height": 27,
+      "sourceText": "「上級ふでばこ」　「変形」を使用",
+      "translation": "使用“高级工具箱”的“变形”功能",
+      "originalSha256": "8D97A77D79E0136783C5CCA136E92E7D1CD1B93A05CDC38C7540861AFED31EA4",
+      "erase": "eNrtzj9Lw1AUBfDzXq7k1aXXIq6+hAyuCkI3Ewm0UgcLjoKLX6Cbmy/QIZ006CyIn8FdBHcHP0D8M3R8g0MGaUy2RHB0EDzThXvg/IC/mNUfP6cc4hOIlupb2wEg43yn2ZCUdrk4ZusCD2WmUHTLmWoUDMSelPdP64Aw6ARCaE2+bDR0aLKhUiQQQg+XOyFofl42R5S9OenJcQQw1OxjwMYd+X6bcZSl+pABgty8UMTXi/QbIw5ixUQ1Q1SMV00Lp8UI76gn35OakbsVI9hI0haDD7YTEo+6Zqx5u2zUlm4xQFf7K0k05oqBfqpIm/60yYA9e5465tIp3gTyifci7O3Ec/CfX8kXMk48tg==",
+      "ink1": "eNrtjr9Kw1Achc9Nb/Wngr0pHSoOvYkBsymCQ0FqAneok4tP4NwHcLwUhKgIpZOD+Kd9gewKgrg4+Qo1k+IiusQqiXHpfQQRPNMZPs75gD8UyXNWFb1G/lhxYuaiKtLlRVhOaUI8basgyRXndPvZCajo7bupM9k0G6GwYycSjGXtmWraikPel2x8ZU2AIPua7qRDL9ASgbVLndo+93SkaUKceDYD6k0xqiQlTZZWrgM5eDAa3pbCKFfEKTmC7AN2VkbkmxN8vDdAF6sWy2QLqY/XRkG54zWjUVMcb887hcYpwZ0FdTn0wcCcCMtmWnVJpJsvPxpQwkH9csWcqFBBnvtlToMIsgvMF5uBf2iI47kFULw+vmFLhUYde9c9ILrfwH9+J99PJk/Y",
+      "ink2": "eNpjYBgFo2AUDBYAAAOQAAE="
+    }
+  ],
+  "fontSha256": "2972782F05D7DD5F8414BC0215F69C181561172286B1F9823B5C279D9E5E6674",
+  "fontFamily": "Fusion Pixel 12px proportional zh_hans",
+  "nativePixelSize": 12
+}

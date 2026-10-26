@@ -1,0 +1,47 @@
+name: Desktop platforms
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  native:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { os: windows-latest, arch: x64 }
+          - { os: windows-11-arm, arch: arm64 }
+          - { os: ubuntu-24.04, arch: x64 }
+          - { os: ubuntu-24.04-arm, arch: arm64 }
+          - { os: macos-15-intel, arch: x64 }
+          - { os: macos-15, arch: arm64 }
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        working-directory: source 中文
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: source 中文
+          submodules: recursive
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '10.0.x'
+          architecture: ${{ matrix.arch }}
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          architecture: ${{ matrix.arch }}
+      - name: Install Linux native font dependencies
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y libfontconfig1 fonts-dejavu-core
+      - name: Compile with pinned external library
+        run: dotnet run --project src/Flipnote.Bootstrap/Flipnote.Bootstrap.csproj -c Release -- tool --force
+      - name: Check submodule initialization and preservation of local edits
+        run: python scripts/check-submodule.py
+      - name: Check native graphics, fonts, KWZ signing, paths and exit codes
+        run: python scripts/check-platform.py --expect-architecture ${{ matrix.arch }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: platform-${{ matrix.os }}
+          path: source 中文/artifacts/platform-validation.json
+          if-no-files-found: error

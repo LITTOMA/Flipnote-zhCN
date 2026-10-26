@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "message": "A"
+  },
+  {
+    "id": 1,
+    "message": "合并A+B+C"
+  },
+  {
+    "id": 2,
+    "message": "B"
+  },
+  {
+    "id": 3,
+    "message": "合并A+B+C"
+  },
+  {
+    "id": 4,
+    "message": "C"
+  },
+  {
+    "id": 5,
+    "message": "合并A+B+C"
+  },
+  {
+    "id": 6,
+    "message": "A"
+  },
+  {
+    "id": 7,
+    "message": "B"
+  },
+  {
+    "id": 8,
+    "message": "C"
+  },
+  {
+    "id": 9,
+    "message": "图层A"
+  },
+  {
+    "id": 10,
+    "message": "图层B"
+  },
+  {
+    "id": 11,
+    "message": "图层C"
+  },
+  {
+    "id": 12,
+    "message": "合并A+B"
+  },
+  {
+    "id": 13,
+    "message": "合并A+C"
+  },
+  {
+    "id": 14,
+    "message": "合并B+A"
+  },
+  {
+    "id": 15,
+    "message": "合并B+C"
+  },
+  {
+    "id": 16,
+    "message": "合并C+A"
+  },
+  {
+    "id": 17,
+    "message": "合并C+B"
+  }
+]

@@ -1,0 +1,1626 @@
+{
+  "schemaVersion": 1,
+  "font": "fonts/fusion-pixel-12px/fusion-pixel-12px-proportional-zh_hans.otf",
+  "fontSha256": "2972782F05D7DD5F8414BC0215F69C181561172286B1F9823B5C279D9E5E6674",
+  "nativePixelSize": 12,
+  "scaleMethod": "native monochrome raster; 24 px via exact 2x nearest; original alignment anchors",
+  "animations": [
+    {
+      "index": 1,
+      "texts": [
+        {
+          "messageId": 39,
+          "firstFrame": 0,
+          "lastFrame": 0,
+          "referenceFrame": 0,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            20,
+            64,
+            280,
+            44
+          ],
+          "scale": 2,
+          "sourceText": "うごメモカラーサンプル",
+          "translation": "动画配色示例",
+          "eraseBounds": [
+            [
+              27,
+              72,
+              262,
+              24
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 157.5,
+          "lineTops": [
+            72
+          ]
+        },
+        {
+          "messageId": 40,
+          "firstFrame": 1,
+          "lastFrame": 1,
+          "referenceFrame": 1,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            115,
+            106,
+            150,
+            30
+          ],
+          "scale": 1,
+          "sourceText": "くろベース",
+          "translation": "黑色基底",
+          "eraseBounds": [
+            [
+              132,
+              115,
+              58,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 160,
+          "lineTops": [
+            115
+          ]
+        },
+        {
+          "messageId": 41,
+          "firstFrame": 7,
+          "lastFrame": 7,
+          "referenceFrame": 7,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            115,
+            106,
+            150,
+            30
+          ],
+          "scale": 1,
+          "sourceText": "しろベース",
+          "translation": "白色基底",
+          "eraseBounds": [
+            [
+              131,
+              115,
+              58,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 160,
+          "lineTops": [
+            115
+          ]
+        },
+        {
+          "messageId": 42,
+          "firstFrame": 13,
+          "lastFrame": 13,
+          "referenceFrame": 13,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            115,
+            106,
+            150,
+            30
+          ],
+          "scale": 1,
+          "sourceText": "あかベース",
+          "translation": "红色基底",
+          "eraseBounds": [
+            [
+              130,
+              114,
+              59,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 159,
+          "lineTops": [
+            114
+          ]
+        },
+        {
+          "messageId": 43,
+          "firstFrame": 19,
+          "lastFrame": 19,
+          "referenceFrame": 19,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            115,
+            106,
+            150,
+            30
+          ],
+          "scale": 1,
+          "sourceText": "きいろベース",
+          "translation": "黄色基底",
+          "eraseBounds": [
+            [
+              125,
+              115,
+              70,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 159.5,
+          "lineTops": [
+            115
+          ]
+        },
+        {
+          "messageId": 44,
+          "firstFrame": 25,
+          "lastFrame": 25,
+          "referenceFrame": 25,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            115,
+            106,
+            150,
+            30
+          ],
+          "scale": 1,
+          "sourceText": "みどりベース",
+          "translation": "绿色基底",
+          "eraseBounds": [
+            [
+              125,
+              114,
+              71,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 160,
+          "lineTops": [
+            114
+          ]
+        },
+        {
+          "messageId": 45,
+          "firstFrame": 31,
+          "lastFrame": 31,
+          "referenceFrame": 31,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            115,
+            106,
+            150,
+            30
+          ],
+          "scale": 1,
+          "sourceText": "あおベース",
+          "translation": "蓝色基底",
+          "eraseBounds": [
+            [
+              131,
+              114,
+              59,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 160,
+          "lineTops": [
+            114
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "texts": [
+        {
+          "messageId": 37,
+          "firstFrame": 0,
+          "lastFrame": 1,
+          "referenceFrame": 0,
+          "layer": 1,
+          "ink": 2,
+          "rect": [
+            5,
+            5,
+            105,
+            55
+          ],
+          "scale": 1,
+          "sourceText": "「上級ふでばこ」\n「３Ｄ」を使用",
+          "translation": "使用高级工具箱的\n3D功能",
+          "eraseBounds": [
+            [
+              11,
+              10,
+              82,
+              12
+            ],
+            [
+              11,
+              28,
+              70,
+              11
+            ]
+          ],
+          "alignment": "left",
+          "anchorX": 11,
+          "lineTops": [
+            10,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "texts": [
+        {
+          "messageId": 38,
+          "firstFrame": 0,
+          "lastFrame": 5,
+          "referenceFrame": 0,
+          "layer": 1,
+          "ink": 1,
+          "rect": [
+            210,
+            4,
+            106,
+            60
+          ],
+          "scale": 1,
+          "sourceText": "「上級ふでばこ」\n「３Ｄ」を使用",
+          "translation": "使用高级工具箱的\n3D功能",
+          "eraseBounds": [
+            [
+              228,
+              11,
+              82,
+              12
+            ],
+            [
+              240,
+              30,
+              70,
+              11
+            ]
+          ],
+          "alignment": "right",
+          "anchorX": 309,
+          "lineTops": [
+            11,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "texts": [
+        {
+          "messageId": 26,
+          "firstFrame": 0,
+          "lastFrame": 7,
+          "referenceFrame": 0,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            28,
+            35,
+            260,
+            110
+          ],
+          "scale": 2,
+          "sourceText": "ゲロリ、\n上級ふでばこの\nレイヤーってなに？",
+          "translation": "呱呱，\n高级工具箱里的\n图层是什么呀？",
+          "eraseBounds": [
+            [
+              36,
+              41,
+              80,
+              24
+            ],
+            [
+              34,
+              76,
+              166,
+              24
+            ],
+            [
+              40,
+              117,
+              208,
+              22
+            ]
+          ],
+          "alignment": "left",
+          "anchorX": 35,
+          "lineTops": [
+            41,
+            76,
+            117
+          ]
+        },
+        {
+          "messageId": 27,
+          "firstFrame": 10,
+          "lastFrame": 19,
+          "referenceFrame": 10,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            35,
+            180,
+            250,
+            25
+          ],
+          "scale": 1,
+          "sourceText": "普通は一枚の紙に…",
+          "translation": "平常画画时……",
+          "eraseBounds": [
+            [
+              101,
+              186,
+              107,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 154,
+          "lineTops": [
+            186
+          ]
+        },
+        {
+          "messageId": 28,
+          "firstFrame": 20,
+          "lastFrame": 28,
+          "referenceFrame": 20,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            35,
+            180,
+            250,
+            25
+          ],
+          "scale": 1,
+          "sourceText": "絵を描きますが…",
+          "translation": "我们只用一张纸……",
+          "eraseBounds": [
+            [
+              98,
+              186,
+              95,
+              12
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 145,
+          "lineTops": [
+            186
+          ]
+        },
+        {
+          "messageId": 29,
+          "firstFrame": 29,
+          "lastFrame": 35,
+          "referenceFrame": 29,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            35,
+            184,
+            250,
+            25
+          ],
+          "scale": 1,
+          "sourceText": "上級ふでばこは…",
+          "translation": "但高级工具箱……",
+          "eraseBounds": [
+            [
+              107,
+              187,
+              95,
+              12
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 154,
+          "lineTops": [
+            187
+          ]
+        },
+        {
+          "messageId": 30,
+          "firstFrame": 36,
+          "lastFrame": 48,
+          "referenceFrame": 36,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            30,
+            201,
+            260,
+            26
+          ],
+          "scale": 1,
+          "sourceText": "三枚のレイヤー（層）に絵を描きます",
+          "translation": "可以在三个图层上分别绘画。",
+          "eraseBounds": [
+            [
+              60,
+              203,
+              189,
+              12
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 154,
+          "lineTops": [
+            203
+          ]
+        },
+        {
+          "messageId": 31,
+          "firstFrame": 49,
+          "lastFrame": 54,
+          "referenceFrame": 49,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            28,
+            35,
+            260,
+            110
+          ],
+          "scale": 2,
+          "sourceText": "むずかしそう？",
+          "translation": "听起来很难？",
+          "eraseBounds": [
+            [
+              77,
+              81,
+              160,
+              22
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 156.5,
+          "lineTops": [
+            81
+          ]
+        },
+        {
+          "messageId": 32,
+          "firstFrame": 55,
+          "lastFrame": 64,
+          "referenceFrame": 55,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            28,
+            35,
+            260,
+            110
+          ],
+          "scale": 2,
+          "sourceText": "でも\n上手に使うと\n便利なんですよ",
+          "translation": "其实\n只要用得好，\n就很方便哦。",
+          "eraseBounds": [
+            [
+              50,
+              45,
+              42,
+              22
+            ],
+            [
+              47,
+              81,
+              140,
+              22
+            ],
+            [
+              48,
+              120,
+              166,
+              22
+            ]
+          ],
+          "alignment": "left",
+          "anchorX": 48,
+          "lineTops": [
+            45,
+            81,
+            120
+          ]
+        },
+        {
+          "messageId": 33,
+          "firstFrame": 65,
+          "lastFrame": 72,
+          "referenceFrame": 65,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            28,
+            35,
+            260,
+            110
+          ],
+          "scale": 2,
+          "sourceText": "それに\nこんな風に…",
+          "translation": "而且，\n像这样……",
+          "eraseBounds": [
+            [
+              113,
+              66,
+              68,
+              22
+            ],
+            [
+              91,
+              98,
+              140,
+              22
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 160.5,
+          "lineTops": [
+            66,
+            98
+          ],
+          "lineAnchors": [
+            146.5,
+            160.5
+          ]
+        },
+        {
+          "messageId": 34,
+          "firstFrame": 93,
+          "lastFrame": 105,
+          "referenceFrame": 93,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            28,
+            35,
+            260,
+            110
+          ],
+          "scale": 2,
+          "sourceText": "レイヤーを動かせば\nおもしろい３Ｄアニメが\nできるんです",
+          "translation": "移动图层，\n就能做出有趣的\n3D动画。",
+          "eraseBounds": [
+            [
+              39,
+              43,
+              212,
+              24
+            ],
+            [
+              34,
+              80,
+              252,
+              24
+            ],
+            [
+              35,
+              119,
+              141,
+              22
+            ]
+          ],
+          "alignment": "left",
+          "anchorX": 35,
+          "lineTops": [
+            43,
+            80,
+            119
+          ]
+        },
+        {
+          "messageId": 35,
+          "firstFrame": 106,
+          "lastFrame": 114,
+          "referenceFrame": 106,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            28,
+            35,
+            260,
+            110
+          ],
+          "scale": 2,
+          "sourceText": "自分にあった\n使い方をみつけてね",
+          "translation": "试着找到\n适合自己的用法吧！",
+          "eraseBounds": [
+            [
+              61,
+              60,
+              138,
+              22
+            ],
+            [
+              55,
+              97,
+              214,
+              22
+            ]
+          ],
+          "alignment": "left",
+          "anchorX": 56,
+          "lineTops": [
+            60,
+            97
+          ]
+        },
+        {
+          "messageId": 36,
+          "firstFrame": 115,
+          "lastFrame": 116,
+          "referenceFrame": 115,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            28,
+            35,
+            260,
+            110
+          ],
+          "scale": 1,
+          "sourceText": "アディオス！アミーゴ！！",
+          "translation": "再见啦，朋友！",
+          "eraseBounds": [
+            [
+              91,
+              84,
+              140,
+              12
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 160.5,
+          "lineTops": [
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "texts": [
+        {
+          "messageId": 21,
+          "firstFrame": 0,
+          "lastFrame": 4,
+          "referenceFrame": 0,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            28,
+            35,
+            260,
+            110
+          ],
+          "scale": 2,
+          "sourceText": "ゲロリ、\nLシフトってしってる？",
+          "translation": "呱呱，\n你知道L键切换吗？",
+          "eraseBounds": [
+            [
+              39,
+              56,
+              80,
+              24
+            ],
+            [
+              40,
+              95,
+              245,
+              22
+            ]
+          ],
+          "alignment": "left",
+          "anchorX": 39,
+          "lineTops": [
+            56,
+            95
+          ]
+        },
+        {
+          "messageId": 22,
+          "firstFrame": 5,
+          "lastFrame": 15,
+          "referenceFrame": 5,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            130,
+            80,
+            150,
+            23
+          ],
+          "scale": 1,
+          "sourceText": "Ｌボタンをおしてると…",
+          "translation": "按住L键时……",
+          "eraseBounds": [
+            [
+              140,
+              84,
+              126,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 202.5,
+          "lineTops": [
+            84
+          ]
+        },
+        {
+          "messageId": 23,
+          "firstFrame": 16,
+          "lastFrame": 31,
+          "referenceFrame": 16,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            105,
+            103,
+            116,
+            47
+          ],
+          "scale": 1,
+          "sourceText": "かくれた機能が\nでてくるよ！",
+          "translation": "就能看到\n隐藏的功能哦！",
+          "eraseBounds": [
+            [
+              123,
+              110,
+              83,
+              12
+            ],
+            [
+              131,
+              129,
+              68,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 164.5,
+          "lineTops": [
+            110,
+            129
+          ],
+          "lineAnchors": [
+            164,
+            164.5
+          ]
+        },
+        {
+          "messageId": 24,
+          "firstFrame": 32,
+          "lastFrame": 40,
+          "referenceFrame": 32,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            28,
+            35,
+            260,
+            110
+          ],
+          "scale": 2,
+          "sourceText": "便利な機能\nみつけてね！",
+          "translation": "找找有哪些\n好用的功能吧！",
+          "eraseBounds": [
+            [
+              86,
+              61,
+              142,
+              22
+            ],
+            [
+              88,
+              96,
+              138,
+              22
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 156.5,
+          "lineTops": [
+            61,
+            96
+          ]
+        },
+        {
+          "messageId": 25,
+          "firstFrame": 41,
+          "lastFrame": 42,
+          "referenceFrame": 41,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            28,
+            35,
+            260,
+            110
+          ],
+          "scale": 1,
+          "sourceText": "アディオス！アミーゴ！！",
+          "translation": "再见啦，朋友！",
+          "eraseBounds": [
+            [
+              91,
+              84,
+              140,
+              12
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 160.5,
+          "lineTops": [
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "texts": [
+        {
+          "messageId": 3,
+          "firstFrame": 0,
+          "lastFrame": 7,
+          "referenceFrame": 0,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            28,
+            35,
+            260,
+            110
+          ],
+          "scale": 2,
+          "sourceText": "ゲロリ、\n３Ｄアニメって？",
+          "translation": "呱呱，\n什么是3D动画？",
+          "eraseBounds": [
+            [
+              54,
+              52,
+              80,
+              24
+            ],
+            [
+              58,
+              101,
+              174,
+              22
+            ]
+          ],
+          "alignment": "left",
+          "anchorX": 54,
+          "lineTops": [
+            52,
+            101
+          ]
+        },
+        {
+          "messageId": 4,
+          "firstFrame": 15,
+          "lastFrame": 19,
+          "referenceFrame": 15,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            80,
+            195,
+            160,
+            35
+          ],
+          "scale": 1,
+          "sourceText": "３Ｄアニメとは？",
+          "translation": "什么是3D动画？",
+          "eraseBounds": [
+            [
+              117,
+              197,
+              87,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 160,
+          "lineTops": [
+            197
+          ]
+        },
+        {
+          "messageId": 5,
+          "firstFrame": 24,
+          "lastFrame": 30,
+          "referenceFrame": 25,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            15,
+            95,
+            155,
+            40
+          ],
+          "scale": 1,
+          "sourceText": "奥行きを使った…",
+          "translation": "就是利用立体感……",
+          "eraseBounds": [
+            [
+              29,
+              114,
+              95,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 76,
+          "lineTops": [
+            114
+          ]
+        },
+        {
+          "messageId": 6,
+          "firstFrame": 33,
+          "lastFrame": 39,
+          "referenceFrame": 34,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            180,
+            92,
+            130,
+            40
+          ],
+          "scale": 1,
+          "sourceText": "アニメです。",
+          "translation": "制作的动画。",
+          "eraseBounds": [
+            [
+              200,
+              111,
+              64,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 231.5,
+          "lineTops": [
+            111
+          ]
+        },
+        {
+          "messageId": 7,
+          "firstFrame": 42,
+          "lastFrame": 48,
+          "referenceFrame": 42,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            25,
+            90,
+            145,
+            40
+          ],
+          "scale": 1,
+          "sourceText": "飛び出して…",
+          "translation": "向前凸出……",
+          "eraseBounds": [
+            [
+              53,
+              114,
+              71,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 88,
+          "lineTops": [
+            114
+          ]
+        },
+        {
+          "messageId": 8,
+          "firstFrame": 51,
+          "lastFrame": 58,
+          "referenceFrame": 51,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            185,
+            92,
+            125,
+            40
+          ],
+          "scale": 1,
+          "sourceText": "ひっこむ。",
+          "translation": "向后缩回。",
+          "eraseBounds": [
+            [
+              201,
+              112,
+              53,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 227,
+          "lineTops": [
+            112
+          ]
+        },
+        {
+          "messageId": 9,
+          "firstFrame": 72,
+          "lastFrame": 76,
+          "referenceFrame": 72,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            50,
+            179,
+            208,
+            38
+          ],
+          "scale": 1,
+          "sourceText": "「３Ｄ」は右上のボタンから…",
+          "translation": "点击右上角的“3D”按钮……",
+          "eraseBounds": [
+            [
+              79,
+              192,
+              157,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 157,
+          "lineTops": [
+            192
+          ]
+        },
+        {
+          "messageId": 10,
+          "firstFrame": 77,
+          "lastFrame": 85,
+          "referenceFrame": 77,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            65,
+            195,
+            220,
+            38
+          ],
+          "scale": 1,
+          "sourceText": "調整できます。",
+          "translation": "就能调整立体效果。",
+          "eraseBounds": [
+            [
+              115,
+              204,
+              77,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 153,
+          "lineTops": [
+            204
+          ]
+        },
+        {
+          "messageId": 11,
+          "firstFrame": 86,
+          "lastFrame": 94,
+          "referenceFrame": 86,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            28,
+            35,
+            260,
+            110
+          ],
+          "scale": 2,
+          "sourceText": "正面から見ると…",
+          "translation": "从正面看……",
+          "eraseBounds": [
+            [
+              71,
+              73,
+              190,
+              22
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 165.5,
+          "lineTops": [
+            73
+          ]
+        },
+        {
+          "messageId": 12,
+          "firstFrame": 96,
+          "lastFrame": 116,
+          "referenceFrame": 96,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            40,
+            187,
+            250,
+            51
+          ],
+          "scale": 1,
+          "sourceText": "こうなります。\n※３ＤをＯＮにする必要があります",
+          "translation": "就是这个样子。\n※需要开启3D显示",
+          "eraseBounds": [
+            [
+              122,
+              195,
+              76,
+              11
+            ],
+            [
+              71,
+              218,
+              180,
+              12
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 160,
+          "lineTops": [
+            195,
+            218
+          ],
+          "lineAnchors": [
+            159.5,
+            160.5
+          ]
+        },
+        {
+          "messageId": 13,
+          "firstFrame": 117,
+          "lastFrame": 126,
+          "referenceFrame": 117,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            28,
+            35,
+            260,
+            110
+          ],
+          "scale": 2,
+          "sourceText": "これに絵をつけると…",
+          "translation": "再给它画上图案……",
+          "eraseBounds": [
+            [
+              38,
+              78,
+              236,
+              22
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 155.5,
+          "lineTops": [
+            78
+          ]
+        },
+        {
+          "messageId": 14,
+          "firstFrame": 128,
+          "lastFrame": 131,
+          "referenceFrame": 128,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            80,
+            184,
+            160,
+            33
+          ],
+          "scale": 1,
+          "sourceText": "小さくなって…",
+          "translation": "先变小……",
+          "eraseBounds": [
+            [
+              115,
+              190,
+              83,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 156,
+          "lineTops": [
+            190
+          ]
+        },
+        {
+          "messageId": 15,
+          "firstFrame": 132,
+          "lastFrame": 136,
+          "referenceFrame": 133,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            80,
+            184,
+            160,
+            33
+          ],
+          "scale": 1,
+          "sourceText": "バウンドして…",
+          "translation": "再弹起来……",
+          "eraseBounds": [
+            [
+              123,
+              192,
+              83,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 164,
+          "lineTops": [
+            192
+          ]
+        },
+        {
+          "messageId": 16,
+          "firstFrame": 137,
+          "lastFrame": 149,
+          "referenceFrame": 138,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            80,
+            184,
+            160,
+            33
+          ],
+          "scale": 1,
+          "sourceText": "ボヨ～ン",
+          "translation": "弹呀～",
+          "eraseBounds": [
+            [
+              136,
+              188,
+              47,
+              11
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 159,
+          "lineTops": [
+            188
+          ]
+        },
+        {
+          "messageId": 18,
+          "firstFrame": 150,
+          "lastFrame": 161,
+          "referenceFrame": 150,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            28,
+            35,
+            260,
+            110
+          ],
+          "scale": 2,
+          "sourceText": "ボールになりました。",
+          "translation": "就变成小球了。",
+          "eraseBounds": [
+            [
+              43,
+              78,
+              226,
+              22
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 155.5,
+          "lineTops": [
+            78
+          ]
+        },
+        {
+          "messageId": 19,
+          "firstFrame": 162,
+          "lastFrame": 170,
+          "referenceFrame": 162,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            28,
+            35,
+            260,
+            110
+          ],
+          "scale": 2,
+          "sourceText": "簡単なことから\nはじめよう！",
+          "translation": "从简单的动画\n开始试试吧！",
+          "eraseBounds": [
+            [
+              76,
+              59,
+              166,
+              22
+            ],
+            [
+              78,
+              99,
+              136,
+              22
+            ]
+          ],
+          "alignment": "left",
+          "anchorX": 76,
+          "lineTops": [
+            59,
+            99
+          ]
+        },
+        {
+          "messageId": 20,
+          "firstFrame": 171,
+          "lastFrame": 172,
+          "referenceFrame": 171,
+          "layer": 0,
+          "ink": 2,
+          "rect": [
+            28,
+            35,
+            260,
+            110
+          ],
+          "scale": 1,
+          "sourceText": "アディオス！アミーゴ！！",
+          "translation": "再见啦，朋友！",
+          "eraseBounds": [
+            [
+              91,
+              84,
+              140,
+              12
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 160.5,
+          "lineTops": [
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "texts": [
+        {
+          "messageId": 2,
+          "firstFrame": 0,
+          "lastFrame": 5,
+          "referenceFrame": 0,
+          "layer": 0,
+          "ink": 1,
+          "rect": [
+            8,
+            8,
+            132,
+            22
+          ],
+          "scale": 1,
+          "sourceText": "「普通ふでばこ」",
+          "translation": "使用基础工具箱",
+          "eraseBounds": [
+            [
+              15,
+              14,
+              82,
+              12
+            ]
+          ],
+          "alignment": "left",
+          "anchorX": 15,
+          "lineTops": [
+            14
+          ]
+        },
+        {
+          "messageId": 2,
+          "firstFrame": 0,
+          "lastFrame": 5,
+          "referenceFrame": 0,
+          "layer": 0,
+          "ink": 1,
+          "rect": [
+            6,
+            29,
+            58,
+            18
+          ],
+          "scale": 1,
+          "sourceText": "「Lシフト",
+          "translation": "L键切换",
+          "eraseBounds": [
+            [
+              15,
+              32,
+              47,
+              11
+            ]
+          ],
+          "alignment": "left",
+          "anchorX": 15,
+          "lineTops": [
+            32
+          ]
+        },
+        {
+          "messageId": 2,
+          "firstFrame": 0,
+          "lastFrame": 5,
+          "referenceFrame": 0,
+          "layer": 0,
+          "ink": 1,
+          "rect": [
+            88,
+            29,
+            10,
+            18
+          ],
+          "scale": 1,
+          "sourceText": "（放大镜后的闭引号）",
+          "translation": "保留加号和放大镜图标",
+          "draw": false,
+          "eraseBounds": [
+            [
+              90,
+              34,
+              4,
+              9
+            ]
+          ],
+          "alignment": "left",
+          "anchorX": 15,
+          "lineTops": [
+            34
+          ]
+        },
+        {
+          "messageId": 2,
+          "firstFrame": 0,
+          "lastFrame": 5,
+          "referenceFrame": 0,
+          "layer": 0,
+          "ink": 1,
+          "rect": [
+            8,
+            47,
+            160,
+            23
+          ],
+          "scale": 1,
+          "sourceText": "「変形 拡大」使用",
+          "translation": "变形→放大功能",
+          "eraseBounds": [
+            [
+              15,
+              49,
+              99,
+              12
+            ]
+          ],
+          "alignment": "left",
+          "anchorX": 15,
+          "lineTops": [
+            49
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "texts": [
+        {
+          "messageId": 1,
+          "firstFrame": 0,
+          "lastFrame": 32,
+          "referenceFrame": 0,
+          "layer": 1,
+          "ink": 2,
+          "rect": [
+            5,
+            5,
+            106,
+            55
+          ],
+          "scale": 1,
+          "sourceText": "「上級ふでばこ」\n「３Ｄ」を使用",
+          "translation": "使用高级工具箱的\n3D功能",
+          "eraseBounds": [
+            [
+              11,
+              10,
+              82,
+              12
+            ],
+            [
+              11,
+              28,
+              70,
+              11
+            ]
+          ],
+          "alignment": "left",
+          "anchorX": 11,
+          "lineTops": [
+            10,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "texts": [
+        {
+          "messageId": 0,
+          "firstFrame": 0,
+          "lastFrame": 9,
+          "referenceFrame": 0,
+          "layer": 0,
+          "ink": 1,
+          "rect": [
+            25,
+            212,
+            270,
+            27
+          ],
+          "scale": 1,
+          "sourceText": "「上級ふでばこ」　「変形」を使用",
+          "translation": "使用“高级工具箱”的“变形”功能",
+          "eraseBounds": [
+            [
+              72,
+              217,
+              171,
+              12
+            ]
+          ],
+          "alignment": "center",
+          "anchorX": 157,
+          "lineTops": [
+            217
+          ]
+        }
+      ]
+    }
+  ]
+}

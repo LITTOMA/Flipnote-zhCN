@@ -1,0 +1,13 @@
+{
+  "family": "Source Han Sans CN",
+  "style": "Regular",
+  "version": "2.005",
+  "release": "2.005R",
+  "file": "SourceHanSansCN-Regular.otf",
+  "url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/2.005R/SubsetOTF/CN/SourceHanSansCN-Regular.otf",
+  "bytes": 8429224,
+  "sha256": "E2BC8A2E7F37474B774FFF8DB758681ECE40BB6947A90D571BCE9DD60671A8E4",
+  "license": "SIL Open Font License 1.1",
+  "licenseFile": "SourceHanSans-LICENSE.txt",
+  "pixelSize": 24
+}

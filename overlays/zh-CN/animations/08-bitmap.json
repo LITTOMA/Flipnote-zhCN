@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "baseSha256": "2B13DE5261DEA4A649768F45EF6E83A9178DE6756FD39ED073B9D573BCF26A6C",
+  "reviewNote": "Manually reviewed original indexed layers. Only explicitly identified Japanese text strokes are erased; all other animation pixels, frame metadata, header and audio are preserved. The thumbnail is regenerated separately using libkwz.UpdateThumbnail. Original left/right/center anchors and line positions retained. Raster font: 缝合像素体 / Fusion Pixel; native 12 px, 24 px by exact 2x nearest scaling; no antialiasing; SHA256 2972782F05D7DD5F8414BC0215F69C181561172286B1F9823B5C279D9E5E6674.",
+  "edits": [
+    {
+      "firstFrame": 0,
+      "lastFrame": 5,
+      "layer": 0,
+      "x": 8,
+      "y": 8,
+      "width": 132,
+      "height": 22,
+      "sourceText": "「普通ふでばこ」",
+      "translation": "使用基础工具箱",
+      "originalSha256": "9243CB9ABB046E26CB7E1DA15E708E897370431F0B7A404743AF854B4290B51D",
+      "erase": "eNpjYKAbCIAxKjoE5P8wMDiyQvkNH+oXMbD8E2f5wwgR4Ahisldg4PnLyCAAUeAgGqCkqCDAwsAAUcHxn91eiCnQkQGmgIEhXEmJQxSh4I+jvVMLg6MD3ASBECEPjgnsTAgFpo0sjEcVoAoYHAS4AlwSAkRYoAoY/gjWWzBYWDbYy1HJ/wA4DhrY",
+      "ink1": "eNpjYKA9cPog32TB8v8hvyKEv8Be8Ke9JxNj0wc7iICjgGDTBBWBB/1TIPwJ9v8f9nsAFUANaPAUEmzaYS/wgP8RM0SBiuDP/U4MjE0/lCAqfn6Wb9JgQSgQYBUUnOgFNKEAqkBRYOK/VSoCP+xfwxUwNnoDFWhAFfRyS/5v3P9f2gBqAvUBAOGKKwk=",
+      "ink2": "eNpjYBgFdAIAAWsAAQ=="
+    },
+    {
+      "firstFrame": 0,
+      "lastFrame": 5,
+      "layer": 0,
+      "x": 6,
+      "y": 29,
+      "width": 58,
+      "height": 18,
+      "sourceText": "「Lシフト",
+      "translation": "L键切换",
+      "originalSha256": "4ABE277822E7875F85AB446668E64EC5006C1FCA46A929938D06B7FD94326054",
+      "erase": "eNpjYMAGGtSBhAMDQ1MD8w9+RgYOJgMWBRYGBQ4GgQYBhgaFBw4Mh9gZmhh6GFgeAiUZmATAkiwKIEkGDgegzgZ5iQMMjEBT5A4wsDDgBQCKiwyZ",
+      "ink1": "eNpjYMAKHBSe+HMwMDC9F1Z6yMDAoeTV4cfEoLDDXn2SPEODw8I2jyCg5FthJW9GBg49pw41VgaFCXaql+yBkso+HhoMDHazBRQFGRkYpvAnmXEw4AUAG7ISHA==",
+      "ink2": "eNpjYBhwAAAAgwAB"
+    },
+    {
+      "firstFrame": 0,
+      "lastFrame": 5,
+      "layer": 0,
+      "x": 88,
+      "y": 29,
+      "width": 10,
+      "height": 18,
+      "sourceText": "（放大镜后的闭引号）",
+      "translation": "保留加号和放大镜图标",
+      "originalSha256": "30EFFFEC33DF176DEAAD131059880B09408CFF8DF3DAE36D416E90C63F5D4941",
+      "erase": "eNpjYACBBgYmDgUw8QHMZwAAGLECRQ==",
+      "ink1": "eNpjYMAKAAAXAAE=",
+      "ink2": "eNpjYMAKAAAXAAE="
+    },
+    {
+      "firstFrame": 0,
+      "lastFrame": 5,
+      "layer": 0,
+      "x": 8,
+      "y": 47,
+      "width": 160,
+      "height": 23,
+      "sourceText": "「変形 拡大」使用",
+      "translation": "变形→放大功能",
+      "originalSha256": "A0A38484BBE94FE1F8DF92A420ABB601751487F1F80E54359E2AEE1A1EB08FF1",
+      "erase": "eNpjYCAONLBjEWNgqmdhaGFgYnBg+ccMFftQr8IEFjtQr8QEU8epwsjwnp1JQIEFLqagqcLAoPKhXmCBPVzvBA+geUsYmAQ2qMDVOfAAzVvDwApUhzCPEWjecqCYAsLeBnmgeUuaOAQWwO1gSBBUYmEIAYopMMPFGPiAzCuuAgIKfIowsQeFiowMeSYJcgsKFZkZhiwAAPJ3ISM=",
+      "ink1": "eNpjYCASCPxQZxBgEmBgUmSGCTX8VxZkUGASqGh6glDnosDJ8MNOYMF+bYSYqyJjg8DE/8pKCkxwvS5KigyCQgIKi84zI/T+mP7/s5CGwiIOhN7/ipwME7mAYvoIdU0KjA0TuFwSFr1AsldAkWECi4vEQn2EmIWAIMMEriaGhRoIe49zczKc2MjYPOMMM8MwAwBA7SL8",
+      "ink2": "eNpjYBgFwwUAAAHMAAE="
+    }
+  ],
+  "fontSha256": "2972782F05D7DD5F8414BC0215F69C181561172286B1F9823B5C279D9E5E6674",
+  "fontFamily": "Fusion Pixel 12px proportional zh_hans",
+  "nativePixelSize": 12
+}

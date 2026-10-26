@@ -1,0 +1,15 @@
+/.work/
+/artifacts/
+/input/
+**/bin/
+**/obj/
+*.cia
+*.cxi
+*.3ds
+*.kwz
+*.kwzproj
+*.bcfnt
+*.bcfnu
+*.log
+__pycache__/
+*.pyc

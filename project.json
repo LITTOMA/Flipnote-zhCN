@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "input": "input/original.cia",
+  "inputSha256": "337925D04CF9196E0D5F01A08E70133CA06C750AD4D15E796865C5E11977186C",
+  "titleId": "0004000000056C00",
+  "overlay": "overlays/zh-CN/manifest.json",
+  "output": "artifacts/Flipnote-v7.2.0_zh-CN.cia"
+}

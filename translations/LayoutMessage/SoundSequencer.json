@@ -1,0 +1,54 @@
+[
+  {
+    "id": 0,
+    "message": "SE1"
+  },
+  {
+    "id": 1,
+    "message": "SE2"
+  },
+  {
+    "id": 2,
+    "message": "SE3"
+  },
+  {
+    "id": 3,
+    "message": "SE4"
+  },
+  {
+    "id": 4,
+    "message": "帧"
+  },
+  {
+    "id": 5,
+    "message": "<E000>"
+  },
+  {
+    "id": 6,
+    "message": "<E002>"
+  },
+  {
+    "id": 7,
+    "message": "<E003>"
+  },
+  {
+    "id": 8,
+    "message": "<E079>"
+  },
+  {
+    "id": 9,
+    "message": "<E07C>"
+  },
+  {
+    "id": 10,
+    "message": "<E079>"
+  },
+  {
+    "id": 11,
+    "message": "<E07B>"
+  },
+  {
+    "id": 12,
+    "message": "<E04E>"
+  }
+]

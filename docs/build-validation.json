@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-26",
+  "inputSha256": "337925D04CF9196E0D5F01A08E70133CA06C750AD4D15E796865C5E11977186C",
+  "outputSha256": "E6CCBAAA8969F9C63586DC353C3CAF192D22BA014826AC836C4C892EFC797E3D",
+  "outputBytes": 7083008,
+  "resourcesVerified": 2093,
+  "overlays": 80,
+  "messages": 667,
+  "selftestWithoutExternalTools": 57,
+  "selftestWithOptional3dstool": null,
+  "negativeCliCases": 3,
+  "fontGlyphs": 7164,
+  "fontPixelsCompared": 4980736,
+  "uiTexturesIndependentlyVerified": 4,
+  "originalPreserved": true,
+  "byteIdenticalToValidatedLocalization": true,
+  "externalDependency": {
+    "repository": "https://github.com/LITTOMA/libkwz.git",
+    "commit": "206269e6ca52d2ec3082f8e7ce7f5c7c110ac2f4",
+    "method": "Git submodule",
+    "path": "external/libkwz",
+    "versionAuthority": "Parent repository gitlink",
+    "remoteCommitAvailable": true,
+    "cleanNetworkRestoreTested": true,
+    "validationReport": "submodule-validation.json",
+    "license": "MIT (original library and Studio code)",
+    "codecValidatedCommit": "b1cdb425110d6bb717f24b313b653a67e9c62b74",
+    "licenseOnlyCommit": "206269e6ca52d2ec3082f8e7ce7f5c7c110ac2f4",
+    "licenseUpdatePlanAndBuildVerified": true
+  },
+  "runtimeTested": false,
+  "supportedBuildPlatforms": [
+    "Windows x64",
+    "Windows ARM64",
+    "macOS x64",
+    "macOS ARM64",
+    "Linux x64 (glibc)",
+    "Linux ARM64 (glibc)"
+  ],
+  "optionalDecoderNote": "The current standalone revision was tested without the optional external decoder. The earlier revision passed 47 optional-decoder checks; that historical count is not a claim about the current test run.",
+  "animationTextReview": {
+    "date": "2026-10-26",
+    "animations": 12,
+    "framesVisuallyReviewed": 506,
+    "layersIndependentlyDecoded": 1518,
+    "knownTextTemplates": 48,
+    "knownTextOccurrences": 351,
+    "uncoveredKnownOccurrences": 0,
+    "changedFrames": [
+      {
+        "animation": "06",
+        "zeroBased": 33,
+        "displayFrame": 34
+      },
+      {
+        "animation": "06",
+        "zeroBased": 58,
+        "displayFrame": 59
+      }
+    ],
+    "otherFramesUnchanged": 504,
+    "independentDecoder": "flipnote.js 6.3.0",
+    "decoderSha256": "42210E5CAFD38B5AA12ACCF70BE2B5B18C588477568B9CFD56DD429D7E90E0F5",
+    "referenceOutputSha256BeforeFix": "35B6D1C73292CC4DB3D1084E03007F6C9D8981DEF3BB6E1D37D386160AB26B3B",
+    "runtimeTested": false
+  },
+  "bannerReview": {
+    "date": "2026-10-26",
+    "regionSlots": [
+      0,
+      9
+    ],
+    "texturesVerified": 7,
+    "pixelsIndependentlyVerified": 180224,
+    "modifiedTextures": 5,
+    "changedPixels": 31884,
+    "modelAnimationMaterialsPreserved": true,
+    "soundPreserved": true,
+    "otherResourcesByteIdentical": 2092,
+    "referenceOutputSha256BeforeBanner": "30D61EFB679BDDDE3F4A3A6C91803ACD7E0BAA8DAD6AA964D7683E3A74DEA905",
+    "standaloneBuildByteIdentical": true,
+    "runtimeTested": false
+  },
+  "verifiedBuildPlatforms": [
+    "Windows 11 x64",
+    "Ubuntu 24.04 x64 (WSL2)"
+  ],
+  "platformValidationReport": "platform-validation.json"
+}

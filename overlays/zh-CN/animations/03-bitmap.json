@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "baseSha256": "FF7E81F48C95B080895EFEEA80CB41024A9C92B4E179AA577A955C2FCCF84DDD",
+  "reviewNote": "Manually reviewed original indexed layers. Only explicitly identified Japanese text strokes are erased; all other animation pixels, frame metadata, header and audio are preserved. The thumbnail is regenerated separately using libkwz.UpdateThumbnail. Original left/right/center anchors and line positions retained. Raster font: 缝合像素体 / Fusion Pixel; native 12 px, 24 px by exact 2x nearest scaling; no antialiasing; SHA256 2972782F05D7DD5F8414BC0215F69C181561172286B1F9823B5C279D9E5E6674.",
+  "edits": [
+    {
+      "firstFrame": 0,
+      "lastFrame": 5,
+      "layer": 1,
+      "x": 210,
+      "y": 4,
+      "width": 106,
+      "height": 60,
+      "sourceText": "「上級ふでばこ」\n「３Ｄ」を使用",
+      "translation": "使用高级工具箱的\n3D功能",
+      "originalSha256": "7DE501130EB4DC50B05DDF304D2A568B2FD871335D02CFC6C9585B3FDC25B365",
+      "erase": "eNrt0LFKBDEQBuA/IWAWDjf4ADKGs7OyXm7jcZWVjyBylc8gOhcV1kXwaqu18vApFgXRtxBsbO2CiOcmB1pbaOUUgR/ywT8D/MU06S004RDcyBgMuQNu557LLjjmvhC7Lzm4S0Kej4aONND9VGFnM5vMCNARPdUjdeUBigh2xSot5QLdrE8N5SohPbt0nvdMRKBmXOte7SNCKPdvRfso3l9/fetiMOham8k87asygY+7Ixu3d+hrxWyqWA9iSgbi7TleAqrwDqsbZ1VCyKQ4uS6/UXVsQv6Fsm2yCW0NHewDJ4QQIDQtr8lFDV5qL+5Pe/ifn80nr+46yQ==",
+      "ink1": "eNpjYKAhUGD5z8j486P8PwEmJYaGfy5P/ruwsHAc+t3CwOAoINjEISjwoH/KDzuGJ+frfyxWcWhQYFBoY5ihIsjYMJGZ8Z/CPg4mh0kgTRwsHI+6lTgZfn6ez8ClLPCA/9FvDQYXR5dPL0OAmuZoLGIQYBL0VOlgaPy/GaRJxEVlvgYrC8eiDiUOhl7umQzRi/9LGzz6LcEwAKDB4QSc+bmi6QlcIrDl3zo4x0FRCRhGMNDa8eIznCOstIgDzgno6NjHg9Ck1sUH4wi4ur3gRtjEsFCDCeGIJCN+hlFAGgAAi1FH7Q==",
+      "ink2": "eNpjYBgFo2AUYAEAAxsAAQ=="
+    }
+  ],
+  "fontSha256": "2972782F05D7DD5F8414BC0215F69C181561172286B1F9823B5C279D9E5E6674",
+  "fontFamily": "Fusion Pixel 12px proportional zh_hans",
+  "nativePixelSize": 12
+}

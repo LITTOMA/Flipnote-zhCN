@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "message": "DSi 剧场作品库"
+  },
+  {
+    "id": 1,
+    "message": "交换"
+  },
+  {
+    "id": 2,
+    "message": "设置"
+  },
+  {
+    "id": 3,
+    "message": "创作"
+  },
+  {
+    "id": 4,
+    "message": "浏览"
+  },
+  {
+    "id": 5,
+    "message": "12"
+  },
+  {
+    "id": 6,
+    "message": "21"
+  },
+  {
+    "id": 7,
+    "message": "按<E073>返回 HOME 菜单"
+  }
+]

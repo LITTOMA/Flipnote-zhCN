@@ -1,0 +1,94 @@
+[
+  {
+    "id": 0,
+    "message": "BGM"
+  },
+  {
+    "id": 1,
+    "message": "<E000>"
+  },
+  {
+    "id": 2,
+    "message": "<E002>"
+  },
+  {
+    "id": 3,
+    "message": "<E003>"
+  },
+  {
+    "id": 4,
+    "message": "<E079>"
+  },
+  {
+    "id": 5,
+    "message": "SE1"
+  },
+  {
+    "id": 6,
+    "message": "SE2"
+  },
+  {
+    "id": 7,
+    "message": "SE3"
+  },
+  {
+    "id": 8,
+    "message": "SE4"
+  },
+  {
+    "id": 9,
+    "message": "BGM"
+  },
+  {
+    "id": 10,
+    "message": "录音中…"
+  },
+  {
+    "id": 11,
+    "message": "SE1"
+  },
+  {
+    "id": 12,
+    "message": "录音中…"
+  },
+  {
+    "id": 13,
+    "message": "SE2"
+  },
+  {
+    "id": 14,
+    "message": "录音中…"
+  },
+  {
+    "id": 15,
+    "message": "SE3"
+  },
+  {
+    "id": 16,
+    "message": "录音中…"
+  },
+  {
+    "id": 17,
+    "message": "SE4"
+  },
+  {
+    "id": 18,
+    "message": "录音中…"
+  },
+  {
+    "id": 19,
+    "message": "<E07C>"
+  },
+  {
+    "id": 20,
+    "message": "<E079>"
+  },
+  {
+    "id": 21,
+    "message": "<E07B>"
+  },
+  {
+    "id": 22,
+    "message": "<E002>"
+  }
+]

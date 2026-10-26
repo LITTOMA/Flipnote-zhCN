@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "message": "A"
+  },
+  {
+    "id": 1,
+    "message": "B"
+  },
+  {
+    "id": 2,
+    "message": "C"
+  },
+  {
+    "id": 3,
+    "message": "C"
+  },
+  {
+    "id": 4,
+    "message": "B"
+  },
+  {
+    "id": 5,
+    "message": "A"
+  },
+  {
+    "id": 6,
+    "message": "重置"
+  },
+  {
+    "id": 7,
+    "message": "靠后"
+  },
+  {
+    "id": 8,
+    "message": "居中"
+  },
+  {
+    "id": 9,
+    "message": "靠前"
+  }
+]

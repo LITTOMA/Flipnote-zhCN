@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-26",
+  "repository": "https://github.com/LITTOMA/libkwz.git",
+  "path": "external/libkwz",
+  "gitlinkMode": "160000",
+  "commit": "b1cdb425110d6bb717f24b313b653a67e9c62b74",
+  "remoteMainMatches": true,
+  "cleanNetworkCheckoutTested": true,
+  "libraryTestsPassed": 77,
+  "studioChecksPassed": 220,
+  "dependencyChecks": {
+    "passed": 13,
+    "checks": [
+      "Uninitialized submodule restores the indexed commit from a Unicode/spaced path",
+      "Clean pinned submodule can be reused",
+      "Wrong revision is rejected without changing HEAD",
+      "Modified tracked resource is rejected and preserved",
+      "Normal CLI entry checks dependency before tool build or cache reuse",
+      "Untracked source is rejected and preserved",
+      "Ignored build outputs do not mark dependency dirty",
+      "Missing gitlink is rejected",
+      "Staged gitlink is authoritative rather than branch tip or duplicate lock",
+      "Explicit dependency update is accepted after HEAD and gitlink agree",
+      "Nonempty uninitialized directory is preserved",
+      "Source archive without Git metadata gives actionable error",
+      "Disposable repositories and Git objects are removed"
+    ]
+  },
+  "localizationValidation": {
+    "verified": true,
+    "runtime": "win-x64",
+    "os": "Microsoft Windows 10.0.26200",
+    "architecture": "X64",
+    "passed": 9,
+    "checks": [
+      "Native Skia PNG roundtrip",
+      "Pinned pixel font hash",
+      "File-based Chinese and Latin font loading",
+      "Pixel-font rendering without antialiasing",
+      "System font discovery for KWZ project text objects",
+      "Complete GB2312 code-page mapping",
+      "KWZ compression, JPEG thumbnail and RSA signing",
+      "Atomic replacement with Unicode and spaced paths",
+      "Failed save preserves existing data and removes temporary output"
+    ],
+    "outputSha256": "E6CCBAAA8969F9C63586DC353C3CAF192D22BA014826AC836C4C892EFC797E3D",
+    "outputBytes": 7083008,
+    "resources": 2093,
+    "selftests": 57,
+    "independentPixelChecks": [
+      "font",
+      "UI textures",
+      "banner"
+    ],
+    "reproducible": true,
+    "entryPointVerified": true,
+    "unicodeSpacedCallerDirectory": true,
+    "errorExitCodesVerified": true
+  },
+  "runtimeTested": false,
+  "ciRecursiveSubmodulesConfigured": true,
+  "nativePlatformsTestedForThisMigration": [
+    "Windows 11 x64"
+  ],
+  "otherPlatformEvidence": "platform-validation.json records earlier Windows/Linux format and authoring checks; macOS/ARM64 CI has not yet executed.",
+  "licenseUpdate": {
+    "commit": "206269e6ca52d2ec3082f8e7ce7f5c7c110ac2f4",
+    "previousCommit": "b1cdb425110d6bb717f24b313b653a67e9c62b74",
+    "changedFiles": [
+      "LICENSE",
+      "README.md"
+    ],
+    "libraryAndEditorSourcesUnchanged": true
+  }
+}
