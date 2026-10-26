@@ -50,3 +50,7 @@ python scripts/verify-ui-images.py --input "C:\Games\original.cia"
 ## 提交范围
 
 提交实际修改的源资产和相应说明，不提交 ROM、完整动画、运行存档、编译产物或缓存。变更 libkwz 依赖须先在独立仓库提交并推送，再切换子模块到该提交，执行 `git add external/libkwz` 更新 gitlink；不要使用跟随分支最新版本的构建方式。涉及编译器/格式的变更须通过 `selftest`，并记录确切的验证范围。
+
+## 设置页汉化信息
+
+新增署名维护在 `overlays/zh-CN/settings/texts.json`，不要直接编辑补丁中的十六进制文字。修改后用 `src/SettingsAbout/author.py` 重新生成，再运行 `plan`、`selftest`、`build`；见 [维护说明](SETTINGS_ABOUT.md)。

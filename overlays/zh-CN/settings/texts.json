@@ -1,0 +1,8 @@
+{
+  "title": "汉化信息",
+  "projectTab": "本项目",
+  "thirdPartyTab": "第三方",
+  "closeLabel": "关闭",
+  "projectInfo": "动画记事本 3D 简体中文汉化\n作者: LITTOMA\n项目地址:\nhttps://github.com/\nLITTOMA/Flipnote-zhCN\n自有代码、译文: MIT 许可证\n字体及第三方署名请查看“第三方”。",
+  "thirdPartyInfo": "界面字体: 思源黑体 CN Regular\nAdobe / SIL OFL 1.1\n动画字体: 缝合像素体 12px\nTakWolf / SIL OFL 1.1\nKWZ 编解码: libkwz (MIT)\n其它组件与完整许可:\n项目根目录 THIRD_PARTY.md\n原游戏及其内容版权归任天堂所有。"
+}

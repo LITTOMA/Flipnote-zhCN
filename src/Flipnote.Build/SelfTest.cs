@@ -73,6 +73,7 @@ internal static class SelfTest
             Reject(()=>new Bclim(badTexture),"Malformed BCLIM footer is rejected");
             string sample=changes.First(c=>c.Kind=="msbt").Target;var messages=new Msbt(original.Resources[sample].Data);string[] before=messages.Texts();
             BannerSelfTest.Run(project,original,expected,scratch,Check,Reject);
+            SettingsAboutSelfTest.Run(project,original,expected,Check,Reject);
             var replacement=JsonSerializer.SerializeToElement(new[]{new { id=0,message="测试\n<00.01:0200><E073><003C>",before=before[0] }});
             string[] after=new Msbt(messages.Apply(replacement)).Texts();
             Check(after[0]=="测试\n<00.01:0200><E073><003C>" && before.Skip(1).SequenceEqual(after.Skip(1)),"Partial message changes preserve other entries and control tags");

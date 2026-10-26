@@ -35,7 +35,7 @@ internal sealed class Project
         if(Manifest.Operations.Select(o=>o.Target).Distinct(StringComparer.Ordinal).Count()!=Manifest.Operations.Length)throw new InvalidDataException("Overlay targets must be unique.");
         foreach(var op in Manifest.Operations)
         {
-            if(op.Kind is not ("msbt" or "binary" or "patch" or "bcfnt" or "bclim" or "banner-textures" or "kwz" or "kwz-project" or "kwz-bitmap"))throw new InvalidDataException("Unknown overlay kind: "+op.Kind);
+            if(op.Kind is not ("msbt" or "binary" or "resource-patch" or "patch" or "bcfnt" or "bclim" or "banner-textures" or "kwz" or "kwz-project" or "kwz-bitmap"))throw new InvalidDataException("Unknown overlay kind: "+op.Kind);
             if(!op.Add && !IsHash(op.BaseSha256))throw new InvalidDataException("Existing resources require baseSha256: "+op.Target);
             if(op.Add && op.BaseSha256!=null)throw new InvalidDataException("An added resource must not have a base hash.");
             Source(op);
@@ -74,6 +74,7 @@ internal sealed class Project
             {
                 "msbt"=>new Msbt(node?.Data??throw new InvalidDataException("MSBT additions need a base template.")).Apply(JsonSerializer.Deserialize<JsonElement>(source)),
                 "patch"=>ApplyPatch(node?.Data??throw new InvalidDataException("Patch requires a base file."),Read<BinaryPatch>(path)),
+                "resource-patch"=>ResourcePatch.Apply(node?.Data??throw new InvalidDataException("Resource patch needs an original."),Read<ResourcePatch.Recipe>(path)),
                 "bcfnt"=>Bcfnt.Compile(path),
                 "bclim"=>Bclim.Compile(node?.Data??throw new InvalidDataException("BCLIM needs an original texture template."),path),
                 "banner-textures"=>Banner.Compile(node?.Data??throw new InvalidDataException("Banner needs an original CBMD template."),path),
@@ -89,7 +90,7 @@ internal sealed class Project
             if(operation.Add)image.AddFile(operation.Target,result);else node!.Replace(result);
             reports.Add(new(operation.Kind,operation.Target,operation.Source,Hash(source),before,Hash(result),result.Length,Dependencies(operation)));
         }
-        CheckFontCoverage();FontMemoryBudget.Validate(image);return reports;
+        CheckFontCoverage();FontMemoryBudget.Validate(image);SettingsAbout.Validate(this,image);return reports;
     }
     private SourceDependency[] Dependencies(OverlayOperation operation)
     {
@@ -101,6 +102,12 @@ internal sealed class Project
             if(File.Exists(FontUnification.PolicyPath(path)))paths.Add(FontUnification.PolicyPath(path));
         }
         string directory=Path.GetDirectoryName(path)!;
+        if(operation.Target==FontMemoryBudget.CodePath)
+        {
+            paths.Add(SettingsAbout.TextPath(this));
+            paths.Add(Path.Combine(Root,"overlays","zh-CN","settings","source-hashes.json"));
+            paths.AddRange(new[]{"about.c","hooks.S","link.ld","author.py"}.Select(file=>Path.Combine(Root,"src","SettingsAbout",file)));
+        }
         if(operation.Kind=="banner-textures")paths.AddRange(Read<Banner.Recipe>(path).Textures.Select(e=>Banner.ImagePath(path,e)).Distinct());
         if(operation.Kind=="kwz-bitmap")paths.AddRange(new[]{"coverage.json","translation-layout.json"}.Select(name=>Path.Combine(directory,name)));
         return paths.Select(p=>{byte[] bytes=File.ReadAllBytes(p);return new SourceDependency(Path.GetRelativePath(directory,p).Replace('\\','/'),Hash(bytes),bytes.Length);}).ToArray();

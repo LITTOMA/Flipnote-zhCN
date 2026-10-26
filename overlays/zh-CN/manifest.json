@@ -564,6 +564,48 @@
       "source": "assets:images/banner.json",
       "baseSha256": "F8D63D5CB021F9027E60E3137943D29DF7BC699FF6D2AB1FE8ABA6C4CCF4C00B",
       "add": false
+    },
+    {
+      "kind": "resource-patch",
+      "target": "content/0000/romfs/LayoutArchive.arc!/Config.blz!/blyt/Config.bclyt",
+      "source": "assets:settings/Config.bclyt.json",
+      "baseSha256": "ECCB61E4A2CF8812B58D82C46EC58320A222C9A11CCA4708D238FDEEEFCCC9EC"
+    },
+    {
+      "kind": "resource-patch",
+      "target": "content/0000/romfs/LayoutArchive.arc!/Config.blz!/anim/Config_Decide.bclan",
+      "source": "assets:settings/Config_Decide.bclan.json",
+      "baseSha256": "9D637B0A296486378B13F05D8FEC15782B4ADAD9BB40E9FAF5E9F3E3110D22DF"
+    },
+    {
+      "kind": "resource-patch",
+      "target": "content/0000/romfs/LayoutArchive.arc!/Config.blz!/anim/Config_Disable.bclan",
+      "source": "assets:settings/Config_Disable.bclan.json",
+      "baseSha256": "A8F7B0C9BA14E2A6E2BB6BBCD47C60943BDAE8A14AE3894CF6B0DCC86DC59085"
+    },
+    {
+      "kind": "resource-patch",
+      "target": "content/0000/romfs/LayoutArchive.arc!/Config.blz!/anim/Config_KeyPush.bclan",
+      "source": "assets:settings/Config_KeyPush.bclan.json",
+      "baseSha256": "00D064175B3940B0D6E10C5EE2A41BAD8279565D8DB91F4A8758EAAA50293A69"
+    },
+    {
+      "kind": "resource-patch",
+      "target": "content/0000/romfs/LayoutArchive.arc!/Config.blz!/anim/Config_Push.bclan",
+      "source": "assets:settings/Config_Push.bclan.json",
+      "baseSha256": "35D2E95B50F5D3CEBE6B3140096CCAA1D172EB3307E4A71F66152F6D4C55608C"
+    },
+    {
+      "kind": "resource-patch",
+      "target": "content/0000/romfs/LayoutArchive.arc!/Config.blz!/anim/Config_Scroll.bclan",
+      "source": "assets:settings/Config_Scroll.bclan.json",
+      "baseSha256": "AD982BA13FDAFCED4C08D58D5557CAF7BA37582A24AAF25ABE1BB5F326F27D51"
+    },
+    {
+      "kind": "resource-patch",
+      "target": "content/0000/romfs/LayoutArchive.arc!/Config.blz!/anim/Config_Wait.bclan",
+      "source": "assets:settings/Config_Wait.bclan.json",
+      "baseSha256": "239891CF738C22A951AF3BC56E96A9C8D6C623F3FED2F62142A02A40BDC3DCC1"
     }
   ]
 }

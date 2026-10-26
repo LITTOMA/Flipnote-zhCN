@@ -51,6 +51,8 @@ sh build.sh "/path/to/Flipnote-v7.2.0.cia" --output artifacts/Flipnote-zhCN.cia
 - 字库加载补丁与主堆/资源缓存预算检查：保留 64 MiB 应用模式，支持约 2.42 MiB 的完整中文字库，并修复画廊入口内存不足。见 [内存预算](docs/FONT_MEMORY.md)。
 - HOME 菜单 ExeFS banner：公共/日文标题均改为“动画记事本 3D”，保留模型、动画、其它图形和声音；见 [banner 说明](docs/BANNER.md)。
 
+- 设置页“汉化信息”：原生双选项弹窗，显示 LITTOMA、项目地址、字体及第三方许可；见 [实现与维护](docs/SETTINGS_ABOUT.md)。
+
 ## 项目结构
 
 | 路径 | 内容 |

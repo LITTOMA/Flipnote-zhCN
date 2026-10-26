@@ -20,6 +20,7 @@ internal static class FontCoverage
             using var json=JsonDocument.Parse(File.ReadAllBytes(project.Source(operation)));
             foreach(var message in json.RootElement.EnumerateArray())foreach(char c in PlainText(message.GetProperty("message").GetString()!))if(!char.IsWhiteSpace(c))result.Add(c);
         }
+        foreach(string text in SettingsAbout.Texts(project).Values)foreach(char c in text)if(!char.IsWhiteSpace(c))result.Add(c);
         if(result.Any(char.IsSurrogate))throw new InvalidDataException("The font profile supports BMP characters only.");
         return result.Order().ToArray();
     }

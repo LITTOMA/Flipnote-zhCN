@@ -1,0 +1,57 @@
+{
+  "baseSha256": "AD982BA13FDAFCED4C08D58D5557CAF7BA37582A24AAF25ABE1BB5F326F27D51",
+  "resultSha256": "9355FC15E332835571F953099746BCB18841C5477AC2C7605AD0E854D2E2C7D2",
+  "resultLength": 868,
+  "segments": [
+    {
+      "copyOffset": 0,
+      "length": 12
+    },
+    {
+      "data": "64"
+    },
+    {
+      "copyOffset": 13,
+      "length": 29
+    },
+    {
+      "data": "2602"
+    },
+    {
+      "copyOffset": 44,
+      "length": 36
+    },
+    {
+      "data": "180300005F01000000000B0014000000400000008C000000CC000000180100005801000098010000D8010000180200005802000098020000D8"
+    },
+    {
+      "copyOffset": 133,
+      "length": 69
+    },
+    {
+      "data": "AF430000AF"
+    },
+    {
+      "copyOffset": 207,
+      "length": 129
+    },
+    {
+      "data": "DA05C4BE0000AF4300004CC2DA05C4"
+    },
+    {
+      "copyOffset": 351,
+      "length": 449
+    },
+    {
+      "data": "54657841626F7574"
+    },
+    {
+      "copyOffset": 223,
+      "length": 9
+    },
+    {
+      "copyOffset": 229,
+      "length": 47
+    }
+  ]
+}

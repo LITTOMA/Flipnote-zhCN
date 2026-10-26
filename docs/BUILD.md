@@ -71,3 +71,7 @@ dotnet run --project src/Flipnote.Bootstrap -c Release -- tool --force
 ## HOME 菜单 banner
 
 `banner-textures` 覆盖类型直接编译原 CBMD 中的 LA4 纹理，保留模型、动画及声音，重建两个 CGFX 压缩流和全部容器哈希。正常构建无新增外部工具依赖；作者及独立验证工具见 [banner 说明](BANNER.md)。
+
+## 设置页署名
+
+汉化信息使用原生菜单扩展和 `resource-patch` 资源配方，正常构建无需 ARM 编译器。新增文字参与缺字检查，源码和生成补丁之间有一致性校验；编辑与验证方法见 [设置页汉化信息](SETTINGS_ABOUT.md)。
