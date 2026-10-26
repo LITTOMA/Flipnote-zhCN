@@ -119,6 +119,15 @@ internal static class SelfTest
             byte[] oldHeap=(byte[])fontCode.Clone();System.Buffers.Binary.BinaryPrimitives.WriteUInt32LittleEndian(oldHeap.AsSpan(FontMemoryBudget.HeapSizeOffset),FontMemoryBudget.OriginalMainHeapBytes);
             Reject(()=>FontMemoryBudget.Validate(font.Length,oldHeap),"The old heap partition that black-screens with the expanded font is rejected");
             Reject(()=>FontMemoryBudget.Validate((int)FontMemoryBudget.AdditionalBytes,fontCode),"Font growth beyond the tested runtime memory budget is rejected");
+            byte[] oldCache=(byte[])fontCode.Clone();
+            System.Buffers.Binary.BinaryPrimitives.WriteUInt32LittleEndian(oldCache.AsSpan(FontMemoryBudget.SmallCacheHeapOffset),0x3B6000);
+            Reject(()=>FontMemoryBudget.Validate(font.Length,oldCache),"A font-expanded main heap without cache compensation is rejected");
+            byte[] oversizedCache=(byte[])fontCode.Clone();
+            System.Buffers.Binary.BinaryPrimitives.WriteUInt32LittleEndian(oversizedCache.AsSpan(FontMemoryBudget.LargeCacheCapacityOffset),0x7CFC00);
+            Reject(()=>FontMemoryBudget.Validate(font.Length,oversizedCache),"A cache buffer larger than its reduced backing heap is rejected");
+            byte[] expandedMode=(byte[])fontCode.Clone();
+            System.Buffers.Binary.BinaryPrimitives.WriteUInt32LittleEndian(expandedMode.AsSpan(0x2AC),0xE2600405);
+            Reject(()=>FontMemoryBudget.Validate(font.Length,expandedMode),"An unintended 80 MiB allocation limit is rejected");
             string fontManifest=project.Source(project.Manifest.Operations.Single(o=>o.Kind=="bcfnt"));
             if(File.Exists(FontUnification.PolicyPath(fontManifest)))
             {

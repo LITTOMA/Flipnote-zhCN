@@ -1,6 +1,6 @@
 {
   "baseSha256": "FA933DA9573525EF3DC46E2F1B8437C75149077EFFF9C5C1BA5ECEA57F4DE2DD",
-  "resultSha256": "8B0BC459346602B82F8273FD2DBCFBC59B29044CA0F113843DCD1D63570B0B0D",
+  "resultSha256": "2340ADCBB81249CD40C0E5278D296422105CCB1F3D9126A12F43AC977EB20E40",
   "length": 3080192,
   "ranges": [
     {
@@ -27,6 +27,26 @@
       "offset": 449647,
       "before": "E10160A0E1",
       "after": "E37080BDE8"
+    },
+    {
+      "offset": 1620672,
+      "before": "7D08A0E3",
+      "after": "6D08A0E3"
+    },
+    {
+      "offset": 1620816,
+      "before": "00603B00",
+      "after": "00601B00"
+    },
+    {
+      "offset": 1620824,
+      "before": "005C3B00",
+      "after": "005C1B00"
+    },
+    {
+      "offset": 1620828,
+      "before": "00FC7C00",
+      "after": "00FC6C00"
     },
     {
       "offset": 2568273,
