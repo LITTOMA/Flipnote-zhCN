@@ -4,9 +4,9 @@
 
 | 平台 | 架构 | 入口 | 原生运行验收 |
 |---|---|---|---|
-| Windows | x64 / ARM64 | `build.cmd` / `note.cmd` | Windows 11 x64 完整通过；ARM64 待执行 |
-| macOS | Intel x64 / Apple Silicon ARM64 | `sh build.sh` / `sh note.sh` | 已配置两种架构的原生 CI，尚未执行 |
-| Linux（glibc 桌面发行版） | x64 / ARM64 | `sh build.sh` / `sh note.sh` | Ubuntu 24.04 x64 完整通过；ARM64 待执行 |
+| Windows | x64 / ARM64 | `build.cmd` / `note.cmd` | 两种架构无 ROM CI 通过；Windows 11 x64 另已通过完整 CIA 构建 |
+| macOS | Intel x64 / Apple Silicon ARM64 | `sh build.sh` / `sh note.sh` | 两种架构无 ROM CI 通过；完整 CIA 构建待验证 |
+| Linux（glibc 桌面发行版） | x64 / ARM64 | `sh build.sh` / `sh note.sh` | 两种架构无 ROM CI 通过；Ubuntu 24.04 x64 另已通过完整 CIA 构建 |
 
 安装 Git，以及与机器架构一致的 [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)，并选择 [.NET 10 支持的操作系统版本](https://github.com/dotnet/core/blob/main/release-notes/10.0/supported-os.md)。本项目的原生 CI 使用 Windows、Ubuntu 24.04、macOS 15。Apple Silicon 使用 ARM64 SDK，无需 Rosetta。Linux 范围为 glibc 发行版，未将 Alpine/musl 或 32 位系统纳入验收范围。
 
@@ -60,4 +60,4 @@ python3 scripts/check-platform.py --input "/path/to/original.cia"
 
 Windows x64 与 Ubuntu 24.04 x64（WSL2）已实际构建同一原版：输出 7,083,008 字节、2,093 个资源，SHA-256 为 `E6CCBAAA8969F9C63586DC353C3CAF192D22BA014826AC836C4C892EFC797E3D`。两边均通过 57 项格式回归和独立像素核对。Linux 还执行了 UI/banner 作者脚本，复现相同像素；教程动画检查 141 帧并复现全部 18 组掩码；`font-unify` 和 `font-extend` 均通过，保持 7,164 个字形及 349 个受保护字形。具体记录见 [platform-validation.json](platform-validation.json)。
 
-`.github/workflows/build.yml` 配置六个原生系统/架构组合，不跨架构模拟。CI 不需要或上传游戏。CI 使用递归子模块检出，固定 libkwz 提交由主仓库 gitlink 提供。macOS/ARM64 的实际运行尚未验证，不能以依赖包存在或 CI 配置完成替代运行记录。游戏内显示与运行验证也与构建平台验收分开记录。
+`.github/workflows/build.yml` 配置六个原生系统/架构组合，不跨架构模拟。CI 不需要或上传游戏。CI 使用递归子模块检出，固定 libkwz 提交由主仓库 gitlink 提供。2026-10-26 的六个原生任务已全部通过，每个任务包含 13 项子模块检查和 9 项平台检查，以及命令入口/错误退出码验证，见 [CI 验收报告](ci-validation.json)。macOS、Windows ARM64 和 Linux ARM64 的完整 CIA 构建尚未实测；无 ROM CI 不替代该项验证。游戏内显示与运行验证也与构建平台验收分开记录。

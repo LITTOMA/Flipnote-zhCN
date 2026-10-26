@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-26",
+  "conclusion": "success",
+  "libkwzCommit": "206269e6ca52d2ec3082f8e7ce7f5c7c110ac2f4",
+  "nativeJobsPassed": 6,
+  "dependencyChecksPerJob": 13,
+  "platformChecksPerJob": 9,
+  "originalCiaUsed": false,
+  "gameRuntimeTested": false,
+  "reports": [
+    {
+      "artifact": "platform-macos-15",
+      "verified": true,
+      "runtime": "osx-arm64",
+      "os": "macOS 15.7.9",
+      "architecture": "Arm64",
+      "passed": 9,
+      "checks": [
+        "Native Skia PNG roundtrip",
+        "Pinned pixel font hash",
+        "File-based Chinese and Latin font loading",
+        "Pixel-font rendering without antialiasing",
+        "System font discovery for KWZ project text objects",
+        "Complete GB2312 code-page mapping",
+        "KWZ compression, JPEG thumbnail and RSA signing",
+        "Atomic replacement with Unicode and spaced paths",
+        "Failed save preserves existing data and removes temporary output"
+      ],
+      "entryPointVerified": true,
+      "unicodeSpacedCallerDirectory": true,
+      "errorExitCodesVerified": true
+    },
+    {
+      "artifact": "platform-macos-15-intel",
+      "verified": true,
+      "runtime": "osx-x64",
+      "os": "macOS 15.7.9",
+      "architecture": "X64",
+      "passed": 9,
+      "checks": [
+        "Native Skia PNG roundtrip",
+        "Pinned pixel font hash",
+        "File-based Chinese and Latin font loading",
+        "Pixel-font rendering without antialiasing",
+        "System font discovery for KWZ project text objects",
+        "Complete GB2312 code-page mapping",
+        "KWZ compression, JPEG thumbnail and RSA signing",
+        "Atomic replacement with Unicode and spaced paths",
+        "Failed save preserves existing data and removes temporary output"
+      ],
+      "entryPointVerified": true,
+      "unicodeSpacedCallerDirectory": true,
+      "errorExitCodesVerified": true
+    },
+    {
+      "artifact": "platform-ubuntu-24.04",
+      "verified": true,
+      "runtime": "linux-x64",
+      "os": "Ubuntu 24.04.5 LTS",
+      "architecture": "X64",
+      "passed": 9,
+      "checks": [
+        "Native Skia PNG roundtrip",
+        "Pinned pixel font hash",
+        "File-based Chinese and Latin font loading",
+        "Pixel-font rendering without antialiasing",
+        "System font discovery for KWZ project text objects",
+        "Complete GB2312 code-page mapping",
+        "KWZ compression, JPEG thumbnail and RSA signing",
+        "Atomic replacement with Unicode and spaced paths",
+        "Failed save preserves existing data and removes temporary output"
+      ],
+      "entryPointVerified": true,
+      "unicodeSpacedCallerDirectory": true,
+      "errorExitCodesVerified": true
+    },
+    {
+      "artifact": "platform-ubuntu-24.04-arm",
+      "verified": true,
+      "runtime": "linux-arm64",
+      "os": "Ubuntu 24.04.5 LTS",
+      "architecture": "Arm64",
+      "passed": 9,
+      "checks": [
+        "Native Skia PNG roundtrip",
+        "Pinned pixel font hash",
+        "File-based Chinese and Latin font loading",
+        "Pixel-font rendering without antialiasing",
+        "System font discovery for KWZ project text objects",
+        "Complete GB2312 code-page mapping",
+        "KWZ compression, JPEG thumbnail and RSA signing",
+        "Atomic replacement with Unicode and spaced paths",
+        "Failed save preserves existing data and removes temporary output"
+      ],
+      "entryPointVerified": true,
+      "unicodeSpacedCallerDirectory": true,
+      "errorExitCodesVerified": true
+    },
+    {
+      "artifact": "platform-windows-11-arm",
+      "verified": true,
+      "runtime": "win-arm64",
+      "os": "Microsoft Windows 10.0.26200",
+      "architecture": "Arm64",
+      "passed": 9,
+      "checks": [
+        "Native Skia PNG roundtrip",
+        "Pinned pixel font hash",
+        "File-based Chinese and Latin font loading",
+        "Pixel-font rendering without antialiasing",
+        "System font discovery for KWZ project text objects",
+        "Complete GB2312 code-page mapping",
+        "KWZ compression, JPEG thumbnail and RSA signing",
+        "Atomic replacement with Unicode and spaced paths",
+        "Failed save preserves existing data and removes temporary output"
+      ],
+      "entryPointVerified": true,
+      "unicodeSpacedCallerDirectory": true,
+      "errorExitCodesVerified": true
+    },
+    {
+      "artifact": "platform-windows-latest",
+      "verified": true,
+      "runtime": "win-x64",
+      "os": "Microsoft Windows 10.0.26100",
+      "architecture": "X64",
+      "passed": 9,
+      "checks": [
+        "Native Skia PNG roundtrip",
+        "Pinned pixel font hash",
+        "File-based Chinese and Latin font loading",
+        "Pixel-font rendering without antialiasing",
+        "System font discovery for KWZ project text objects",
+        "Complete GB2312 code-page mapping",
+        "KWZ compression, JPEG thumbnail and RSA signing",
+        "Atomic replacement with Unicode and spaced paths",
+        "Failed save preserves existing data and removes temporary output"
+      ],
+      "entryPointVerified": true,
+      "unicodeSpacedCallerDirectory": true,
+      "errorExitCodesVerified": true
+    }
+  ],
+  "historyNote": "Recorded CI results predate history sanitization; original commit and run references have been omitted. Runtime sources are unchanged by that sanitization."
+}

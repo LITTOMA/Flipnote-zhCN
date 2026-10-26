@@ -83,14 +83,9 @@
     ]
   },
   "nativeAssetInspectionIsNotExecution": true,
-  "pendingNativeExecution": [
-    "Windows ARM64",
-    "macOS x64",
-    "macOS ARM64",
-    "Linux ARM64"
-  ],
+  "pendingNativeExecution": [],
   "ciConfigured": true,
-  "ciExecuted": false,
+  "ciExecuted": true,
   "gameRuntimeTested": false,
   "linuxAuthoring": {
     "uiAndBannerPixelsIdentical": true,
@@ -122,5 +117,12 @@
   "powershell5CompatibilityChecked": true,
   "ciRecursiveSubmodules": true,
   "submoduleMigrationReport": "submodule-validation.json",
-  "sourceSnapshotScope": "This source hash identifies the earlier cross-platform validation snapshot. The later submodule integration was retested on Windows; see submodule-validation.json."
+  "sourceSnapshotScope": "This source hash identifies the earlier cross-platform validation snapshot. The later submodule integration was retested on Windows; see submodule-validation.json.",
+  "ciValidationReport": "ci-validation.json",
+  "pendingFullCiaValidation": [
+    "Windows ARM64",
+    "macOS x64",
+    "macOS ARM64",
+    "Linux ARM64"
+  ]
 }

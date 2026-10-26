@@ -62,7 +62,7 @@
   "nativePlatformsTestedForThisMigration": [
     "Windows 11 x64"
   ],
-  "otherPlatformEvidence": "platform-validation.json records earlier Windows/Linux format and authoring checks; macOS/ARM64 CI has not yet executed.",
+  "otherPlatformEvidence": "platform-validation.json records Windows/Linux full CIA and authoring checks; ci-validation.json records subsequent successful native no-ROM checks on all six desktop OS/architecture combinations.",
   "licenseUpdate": {
     "commit": "206269e6ca52d2ec3082f8e7ce7f5c7c110ac2f4",
     "previousCommit": "b1cdb425110d6bb717f24b313b653a67e9c62b74",

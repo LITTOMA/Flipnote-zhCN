@@ -8,7 +8,7 @@
 
 支持 **Windows、macOS、Linux**，提供 x64 和 ARM64 原生依赖。需要对应架构的 **.NET 10 SDK**、**Git** 和首次恢复依赖时的网络连接；Linux 还需要 fontconfig。Python、PowerShell、ARM 编译器和 GUI 均不是正常构建的前提。
 
-Windows x64、Ubuntu 24.04 x64 已完成真实 CIA 构建、57 项回归与逐像素验证，输出二进制一致。macOS 和 ARM64 的入口、依赖和自动测试配置已完成，尚未在对应设备执行；见 [三平台支持与验收](docs/PLATFORMS.md)。
+Windows x64、Ubuntu 24.04 x64 已完成真实 CIA 构建、57 项回归与逐像素验证，输出二进制一致。三平台的 x64 / ARM64 均已通过原生 CI（不含原版 CIA 的构建工具检查）；见 [三平台支持与验收](docs/PLATFORMS.md)。
 
 在项目根目录运行：
 
