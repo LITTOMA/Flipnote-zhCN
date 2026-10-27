@@ -1,6 +1,6 @@
 # 修改汉化
 
-下列示例采用 Windows 命令。macOS / Linux 使用 `sh note.sh` / `sh build.sh`，Python 使用 `python3`；参数及资源路径保持一致。作者与验证脚本以 `dotnet` 调用 DLL，不依赖 Windows 可执行文件。Linux 须安装 fontconfig，见 [平台说明](PLATFORMS.md)。正常构建直接使用固化字形和位图，重新绘制字体时仍需审阅像素及保护报告。
+下列示例采用 Windows 命令。macOS / Linux 使用 `sh note.sh` / `sh build.sh`，Python 使用 `python3`；参数及资源路径保持一致。作者与验证脚本以 `dotnet` 调用 DLL，不依赖 Windows 可执行文件。Linux 须安装 fontconfig，见 [平台说明](https://github.com/LITTOMA/Flipnote-zhCN/blob/main/docs/PLATFORMS.md)。正常构建直接使用固化字形和位图，重新绘制字体时仍需审阅像素及保护报告。
 
 ## 消息
 
@@ -31,7 +31,7 @@ python overlays/zh-CN/animations/author-masks.py --input "C:\Games\original.cia"
 
 掩码操作完整解码后的三层索引像素；作者脚本一次只保存一帧，退出时删除临时目录。只改 JSON 的译文注释不会改变画面。缩略图由 libkwz 从原选定帧生成，随后重新签名。游戏会复制示例到 SD 卡，测试时应区别 CIA 内资源和已有 SD 卡副本；正常构建不操作模拟器存档。
 
-`plan`、`build` 会检查全部帧中的已登记原文笔画，不只检查声明的修改区间。新增或变化的文字仍需逐帧目视审阅；详见 [动画逐帧复核](ANIMATION_REVIEW.md)。
+`plan`、`build` 会检查全部帧中的已登记原文笔画，不只检查声明的修改区间。新增或变化的文字仍需逐帧目视审阅；详见 [动画逐帧复核](https://github.com/LITTOMA/Flipnote-zhCN/blob/main/docs/ANIMATION_REVIEW.md)。
 
 ## UI 图片
 
@@ -45,7 +45,7 @@ python scripts/verify-ui-images.py --input "C:\Games\original.cia"
 
 ## HOME 菜单 banner
 
-`overlays/zh-CN/images/banner.json` 和五张 `Banner-*.png` 是标题覆盖源。更新后运行 `plan`、`build`、`selftest` 及 `python scripts/verify-banner.py --input <原版CIA>`，不能只检查 PNG 预览。模型、动画、声音及蒙版外像素必须保持，详见 [banner 说明](BANNER.md)。
+`overlays/zh-CN/images/banner.json` 和五张 `Banner-*.png` 是标题覆盖源。更新后运行 `plan`、`build`、`selftest` 及 `python scripts/verify-banner.py --input <原版CIA>`，不能只检查 PNG 预览。模型、动画、声音及蒙版外像素必须保持，详见 [banner 说明](https://github.com/LITTOMA/Flipnote-zhCN/blob/main/docs/BANNER.md)。
 
 ## 提交范围
 
@@ -53,4 +53,4 @@ python scripts/verify-ui-images.py --input "C:\Games\original.cia"
 
 ## 设置页汉化信息
 
-新增署名维护在 `overlays/zh-CN/settings/texts.json`，不要直接编辑补丁中的十六进制文字。修改后用 `src/SettingsAbout/author.py` 重新生成，再运行 `plan`、`selftest`、`build`；见 [维护说明](SETTINGS_ABOUT.md)。
+新增署名维护在 `overlays/zh-CN/settings/texts.json`，不要直接编辑补丁中的十六进制文字。修改后用 `src/SettingsAbout/author.py` 重新生成，再运行 `plan`、`selftest`、`build`；见 [维护说明](https://github.com/LITTOMA/Flipnote-zhCN/blob/main/docs/SETTINGS_ABOUT.md)。
